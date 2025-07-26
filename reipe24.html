@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Pav bhaji</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs5JuzURJ4OzCpTzdHtC6vV4Mg91kx-WhJaA&s" alt="Recipe 20">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tomato</td>
+                    <td><a href="https://www.amazon.in/Fresh-Tomato-Hybrid-1kg-Pack/dp/B07BG6QWJK/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=ABJF30MRKEN4&dib=eyJ2IjoiMSJ9.AyEWuICqkR_KaPENnX4vNbWBSlgwUszkxMMdb-eltaHCRra7fUXggAgIfdiURbcdcmH4vu9Co82-bubkSoRxhIL0GIPpfNCn2s0CjX4d4aSA41AJ2C2kcy4tYkAaLFUxuCxIjNIKVxroEDiai6EtQrRKsq5iMkUBl6g4u-ZDxfkhUTg8yoJh4ze8IEMjM0H4prWKdfsiXeFNGqvvb_5iPwDfSe7Saud4cSEVRtXyVMI8Zmr8bw-gi_nZ9_5vuqki8mRsds0QMgGIR8MMZh7Gt8aMePTvVA3bQu5wYEkgSmw.mzKx7--nJ0fNPzTqVwQNJqeCdK01_S02CdcEAaZbcO8&dib_tag=se&fpw=alm&keywords=tomato+in+fresh+vegetables&qid=1735228198&s=nowstore&sprefix=tomato%2Cnowstore%2C389&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Carrot</td>
+                    <td><a href="https://www.amazon.in/Fresh-Carrot-Orange-500g-Pack/dp/B07BG5GN6V/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=27N5M9ZZAUJP6&dib=eyJ2IjoiMSJ9.4L-QwARcxe3rUKWU-0fa4deQ_R8PZp6LAB5-MFX_1IbkP3m7Nz542Rc5Xd_Mxza2VsQCVIMnTvJzDBoWCPr_h06fA7Um1u2Ec4dZDOTi_FyBG2yXZwRf0AyounEhVsA9KzqAWeIZyGxnmVjFyrvOzt9jRbEBCbI87AYlLBmHtDHlsO3qoezsxB0MY5Ww2mzl.r-TN1T6Vr4jlpTKMyXAlfHej0dKv2FwhqlfYZeLJYUU&dib_tag=se&fpw=alm&keywords=carrot+in+fresh+vegetables&qid=1735228257&s=nowstore&sprefix=carrot+in+fresh+vegetables%2Cnowstore%2C296&sr=1-1">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Oil</td>
+                    <td><a href="https://www.amazon.in/Freedom-Refined-Sunflower-Oil-1L/dp/B01BUZZ7H4/ref=sr_1_5_f3_0g_fs?crid=1HVPXBAJYHVXY&dib=eyJ2IjoiMSJ9.nAu73QDPNkOx5LcFZQdRiQMQG9TVDIHz9hnTHREMpTozA_u6S25nAWVSoBzg2tvK023pPyw2Wyv3TTqIAEvZm5lJRSQwkVGpng30r6sGg3QfwlBnppnMIuSRR4DnQoOY09ucVMQ5n0laiDG6-ZHRM7Ma8rlcGqkA-AVybgSqysMmVhh8JuC9tCwwGMD88Wu02pzQHyEGfDXv5f22a7Sadz0R1GazijnS01_P3YaBuS3vnpM4tuqFKHpXd0dVUMOD5SukvaGWJDRc2WnFf6Y9mQnSK3Lwu7Zon1g-tJMuS9w.v__jkhCqCj3t-DgJLjG2d_0oBawxbvQQLqiSgz3B2H0&dib_tag=se&keywords=oil&qid=1735205250&s=grocery&sprefix=oil%2Cgrocery%2C398&sr=1-5" target="_blank">Buy</a></td>
+                </tr>
+
+		
+                <tr>
+                    <td>4</td>
+                    <td>Onion</td>
+                    <td><a href="https://www.amazon.in/Fresh-Onion-1kg-Pack/dp/B07BG62MBV/ref=sr_1_1_f3_0g_fs?crid=2R0XF3IFAGK5G&dib=eyJ2IjoiMSJ9.SK3f8aFOn9Aajxr8FHPlrLWTXq2i-DN1INcYDDgC_4r80i2664q-16-5y5h3IcILqKB25apESjM-YYGlC5ZkL5OP-ndaElDaHgxF9ZAYVb4H4ZRNCaZerZndeWEnPCjPXUCfzre18H20uJp1x4BtUpJIxxchqB47RQ8i3CJ2imZtQB4-P03BTr9QKMw23NDDRFBPfehJOIxQjDxgTykdLAObxSsLCPs2IbIDOTnYv3Dx8FKChLqabePleo0JzFoKukL4slkjyXn92WdmFO6HebsAU5dUFRn7HTh9Q5qpjf8.2tPZbjCv9JvmSqt6q9Nti3anDCFgFVbRfZfZeuWjNlE&dib_tag=se&keywords=onions+fresh+1kg&nsdOptOutParam=true&qid=1735205284&s=grocery&sprefix=onion%2Cgrocery%2C373&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+		
+                <tr>
+                    <td>5</td>
+                    <td>salt</td>
+                    <td><a href="https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_6?crid=3DDHWAYW60TZS&dib=eyJ2IjoiMSJ9.lw9SR-mONtmdwbtirwtTr_sc0cmLrd0tuJWV0G6oUGn1G9y86eS9hH7p8NnQCD7uG79hOadow8ds2vPPv_ch8QZW7Q6sas2l-KJ5UXZ9nNSwuwGHCskXVRY9ogfVWXRK6ylgNwOkPxh_xDQ4tXsOqC9i5iVCvy7UWb9EN6av8mLYSSHZ_5CeoPQQ0_NuqGDYLYFZ3SxyRiFtqWdTum6bC_fB2LiCfelkvMGRkqP6mdIO7Vk49Tla1nO8DNN29uHSyNfWZchsKiF6PJTbU-kz2BCs2m04vWJr6yIrSgiK4QA.-b74M_heV_4ZeeB7XCuAACRbFQEw29zTXgtiCdZf3Jo&dib_tag=se&keywords=salt+and+fresh+combo+pack&nsdOptOutParam=true&qid=1735205440&s=grocery&sprefix=salt+and+fresh+combo+pack%2Cgrocery%2C393&sr=1-6" target="_blank">Buy</a></td>
+                </tr>
+		
+                <tr>
+                    <td>6</td>
+                    <td>Cauliflower</td>
+                    <td><a href="https://www.amazon.in/Fresh-Cauliflower-small-Approx-250-400gm/dp/B09H3CZ5KL/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=14RPQCW7XKPVA&dib=eyJ2IjoiMSJ9.lsdqMEPRVKhYlToUZijVCsaCJoyosu_3m5n9Dj4edMdAGojv8rD01NXTyZ5QyDQNC4XLBdVJhTRfqV0PMOeCvlMDAUShqyPbIrRGLJCnXj4hSxKJnDqbNYrY_ulwn0P2hx4MN4VX7WoagUQr6wQssLpJThAlX9RMCVm2CPjd2YW1-qsvpRcBat83sA03UducKR4VQWwCURkKY8iB45_lFxkhIPjm9OxdMh6QlHxVtChzkEZZ8WpnlcbJEN_Ldnuy9HvUQOCeGsezqhQYq4IKexzbRFdLC7ZAFUEmX_IWdMw.8sLLbgOFUtTUjl9ESO0FP9ICmtLG6gtbg9yl7HOTWWo&dib_tag=se&fpw=alm&keywords=cauliflower+fresh+vegetables&nsdOptOutParam=true&qid=1735228413&s=nowstore&sprefix=Caul%2Cnowstore%2C658&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Green chillies</td>
+                    <td><a href="https://www.amazon.in/Fresh-Chilli-Bajji-250g/dp/B07BG68J66/ref=sr_1_3_f3_wg?almBrandId=ctnow&crid=3PQYVILJ5NSD3&dib=eyJ2IjoiMSJ9.VwWs4WKS1h2rUL_jz-VzZGwg8wXeJOEeW2vaEK_VP7cClJsd3CgI26WqwIKcmlBMHBpZvOtyCDLnj9Oq7zQPhd7g1XRUonVs24Xhw44g9eKuMVnO38Wy3PmNG3B4JEzZSYVKpPwZOVDI4zKpUe1uvNerWT-UIbiqtnuxUClqh9lmrRHVQeTMz5Bv1xYh3YES_HVTrgXfapLTCmf4sMDFNZBWUtFQt1QSx2q-yic_460ldvfNUHCmIk5VLu2qq7sogAIjujH3meu3ICX4LpH2g9WL0k5ot6gBBaMWip71jiU.WVM9SoMRv3xm-0_aloxw5d0xRZG2OjsQp30SeRkOtsQ&dib_tag=se&fpw=alm&keywords=green+chillies&qid=1735206831&s=nowstore&sprefix=green+chill%2Cnowstore%2C291&sr=1-3" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Potato</td>
+                    <td><a href="https://www.amazon.in/aspkom-Organic-Onions-Pesticide-Quality/dp/B0D3CJ3DFC/ref=sr_1_1?crid=GNPOCOQZ9XJR&dib=eyJ2IjoiMSJ9.GugmpfbbjV8prNEqUngRsq8Qoib0c5sfZnxJ_bwTz5bw_qWFblqZHrcUVMcplkZSx3mYtURtR787hlThzCQuwV1xNU37v7e01ybJ7ROfKSjn7lPA5PXDF-6OUGeI8AgcM1hbKC5fJ_MHdiaydq3SE4whi5PKukqy1oxsIukURdDQICutp0y-Vwx9pIz3qWSrnOVjsFr_mjNqLZ96Ouli2NAO5rM2Q2sZZFDESKqCHs-419tVsITH_wU7DhbKCjal_75mEQh2yEDQDmSWJvT-50eFmPU8tRxyi4c64_1s6ig.k8GFUyAHeVrI7z6Px98-Gug6p9FdEsXpOA7AW_xe8zw&dib_tag=se&keywords=onions+fresh&nsdOptOutParam=true&qid=1735203818&sprefix=onion%2Caps%2C397&sr=8-1" target="_blank">Buy</a></td>
+                </tr>
+		<tr>
+                    <td>9</td>
+                    <td>ginger-garlic paste</td>
+                    <td><a href="https://www.amazon.in/Catch-Ginger-Garlic-Paste-200/dp/B083QDBBBW/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&crid=Q86SIR6Q8B87&dib=eyJ2IjoiMSJ9.1FUIpW618Necv0rxYSeb80-nIkgvZTHhBicPRO-qjNvGRB5YII4hCSZzkNVVzVAHBuizoEsI2wLRHIEZNBhIpilPdzpvpPKwflj-mr33OmwA7_VntBwSZfOcu0NrQ_Y0zDzohVMMvhOYqb-qETm2qIt-oteBAX3rIajMKxXf2fACAwX1SY4gW3brxao52uKcEliel3mtxAn27cEuAfMUdVDviTKqfmQ3BjzpXXypuvB0xgA690zap-ZQpNR_5uwC375w_MViabHitlYeU01F9V5jGVDIbCBfdbH8j0SaByE.PwTb9js4RLYJW7b875REYfvbiRkKAYSAefu8W4gxOno&dib_tag=se&fpw=alm&keywords=ginger+garlic&qid=1735228335&s=nowstore&sprefix=Ginger%2Cnowstore%2C275&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+		
+		<tr>
+                    <td>10</td>
+                    <td>Pav buns</td>
+                    <td><a href="https://www.amazon.in/More-Fresh-Baked-Bread-Ladi/dp/B08MZTL24Y/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=1H6CJJ1K8WQ2E&dib=eyJ2IjoiMSJ9.zc_rURiXa8xa1pSjCpHxiXvW8TpJqoOgQhLNn2V4ZGGz_UBC_dgrdtRGrv_WA-z_fmJV60XBeqglxXoeuk0ogyv_K9lQd-iSbbUbZvLn7F6FKBjDz0whK_G2S3QhiCDAmvF1RkyjZiOPvaHcwfFuAHTdQaIQXwhMy7w1krvwnvAqOEF6owSEr57Pg9JliSBh26VkiWUrrYG5DTcKyjqcAzBfb3d8ndm3A1SP8Cq7fnJXQAm3LW06esgxX7EpANcN1m6zBeoEmJdP57QQibV8odfMjJc6oH5EYVdNMAPhztY.Su-dTbrgK7dbTaSLaj5LFVhrAGgpO2Jcn7K6Dfn5BCE&dib_tag=se&fpw=alm&keywords=pav+buns&qid=1735227310&s=nowstore&sprefix=pav+buns%2Cnowstore%2C473&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+		<tr>
+                    <td>11</td>
+                    <td>coriander leaves</td>
+                    <td><a href="https://www.amazon.in/Fresh-Coriander-100g-Pack/dp/B07BG5GJJW/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=24B11HEYJ1HR5&dib=eyJ2IjoiMSJ9.jsMF1PtvJIVm3l8hCvo7pCSLjtNcI7fANCa6-tCOkWxckIGxT_3FQtsxFWqq8sEl64F7ConeJrYPITF0EKN-uMVwbSExynwMEhUtMbjl9fk_JUPLeas-P0G6Rch2u9qMIkhD1li0WmmmoOeR0SfQGw.HjqzfaF8wYPc_hLlnHbyNOcH9a6kUF5Pznx6MNmScKg&dib_tag=se&fpw=alm&keywords=coriander+leaves&qid=1735227505&s=garden&sprefix=cor%2Cnowstore%2C300&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+		<tr>
+                    <td>12</td>
+                    <td>Green peas</td>
+                    <td><a href="https://www.amazon.in/Fresh-Peas-Green-500g-Pack/dp/B07BG5GJHK/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=1A2VV8KVJOJ2D&dib=eyJ2IjoiMSJ9.9on-AL9PCR5abtIV1Oy6fu4LoYklJv049TSG9tqwpwYx2gsLR1t4scr-SAqjlBCx208ga9HWSrnaNAKuH8DyFiok2eVzBhn_npHBXwa9hiBlHr2cl4Zidqt1CH4yhwUeWXAHrwD0JDTp-UPvLIZEqe8q9UWbVtLzysaf1z3q_llJHQnz-34HXSGPoiKqTzsF-t10UjX7FsTo23nNKRbwCvumaljtXkAi1-zDSyaMOZUzSBSw9JjEJ3NZg0qMTJNSLmSqOHJDVF31-o6nqQpPH76ntXgWRoBrxc92q-LXcB8.L8s36Z0GU-tgpOUSjX4cEx4PEOLX0zBwI5s3jyUoCgE&dib_tag=se&fpw=alm&keywords=green+peas+in+fresh+vegetables&qid=1735228479&s=nowstore&sprefix=Green++fresh+vegetables%2Cnowstore%2C314&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+		
+		<tr>
+                    <td>13</td>
+                    <td>Red chilli powder</td>
+                    <td><a href="https://www.amazon.in/Everest-Tikhalal-Chilli-Powder-500g/dp/B00O0X763W/ref=sr_1_3_f3_wg?almBrandId=ctnow&crid=33LC6QT171DNC&dib=eyJ2IjoiMSJ9.fMx9Ja5CBWTEU8A4Koe3_esEtB5Vt5d1CTwFG9oVag8jyxkxE5YGYLSzyRRrco3XtrPvppB1EMj_hfmbfc7_1EfIuZxcDg1gBwOsdnvULFieZpPqUsn299PdNtfzgYW1a0YUVI_IkDCGFfQr4qQ4_rvz7lm-a2HipioQEQXMJfgk4MrpTqV5FSi4sLmlFAvWSijB3H6Xn16YNz2sxovhnT_ZpSXT4f0zeAV8Zj2sUGlLHKBronz4a3CnHFtbnZSq_6TFCkXbzsOxNmOgLoiMEg43MCNdXpVUE4vs6MxMaic.UgwC18hxEKJIV2pbgZZJE_yJ5rbbcD8oXRmj0mHCY7M&dib_tag=se&fpw=alm&keywords=red+chilli+powder+500gm&qid=1735228651&s=nowstore&sprefix=redchill%2Cnowstore%2C307&sr=1-3" target="_blank">Buy</a></td>
+                </tr>
+		
+		<tr>
+                    <td>14</td>
+                    <td>Pav bhaji masala</td>
+                    <td><a href="https://www.amazon.in/Everest-Masala-Bhaji-100g-Carton/dp/B00O0X7GKA/ref=sr_1_2_f3_wg_sspa?almBrandId=ctnow&crid=302IZSYYNBAL5&dib=eyJ2IjoiMSJ9.7S_sY5rk1rBWxOeqli7auedH26kT56SRtRZXKJH48VYAj7TlzrGHV8AwYQn4DStmKOiz8oxgSo29zHq_KQKtCOmveYiiVwTfWXfaCQTO8w-dgYLG-rP6oyLoHEvKAG2UtQtzHfxp08fMw_EOZiw0k5b6Ly2_1cEkqM7LaOKYoDHRGXlgf9yG4bWRZh51_IfsNJPhZju0Ttk_JaEJxP8hwBTrYG9Kkmejj3X_iCCuzwVi1dyAsXIjuSkTux18fpxMSCwe4drYxV8J0kHSFsXP8h0uufa36ljinINaxSTFKVk.rI7NzrBsWiPfSQNOV_Yz0vW50g1PL1hsGWLLufxB0iA&dib_tag=se&fpw=alm&keywords=pav+bhaji+masala+powder&qid=1735228721&s=nowstore&sprefix=pav+bhaji%2Cnowstore%2C286&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+        </table>
+        <a href="https://www.youtube.com/watch?v=Vz6kq4sphCI" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+
+            </tbody>
+        
+    </div>
+</body>
+</html>
