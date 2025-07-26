@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Stuffed Brinjal Curry</h1>
+            <img src="https://static.foodrhythms.com/images/recipes/original/guttivankaya_upload.jpg" alt="Recipe 9"
+>
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Brinjals</td>
+                    <td><a href="https://www.amazon.in/Fresh-Brinjal-Nagpur-Gulabi-250/dp/B0DP5FFTDJ/ref=sr_1_6_f3_0o_fs?crid=2TE9C3EBLPY4Q&dib=eyJ2IjoiMSJ9.4T9lVa4XQykw-8X_Zb1ZUDngKNN79j3oQ_Qf2qxX8Mqt1v5d8CUZd3ZebSdBjP9k6zCbz6iwBGUgrfWSi1b0NLcsTIJdfA8HENubuVRhSWeEWcZ30HqjWHReEmsvYk5NxtVIkjU17ZbqhtNMqVhcxW8_8kF5aaD9pO2AO5mHbTkGCpnV0q2FGp8Pq-wUw4PH_p-UX4GEddd4stf_7y8JLTNskzPPct0MQ1wtdplFqYrgFz0Dw3jPO1ONXhW6y-6chQvTtvEnGPuz0iqtL5TNOtUZqEPDlZ3ZIWPDxWNtJ-3YU0TAyZTx--sSEpZldD7o9BszO9DSyaXYNiUlH-uyHiDVFsyuC-zwfz94zWASgqFgaYAipLSOW8-3NjDNMeyiKPKNXRSuIfdLWKiz-7TVyiHLNPkkkb7YTfg_UGXaw8I5cxout7D79SaeToLC73LG.DL_CMMc3GnPxb8xDi1qarUHpx6dijfkR6ER8lraAy5E&dib_tag=se&keywords=brinjals&qid=1735373222&sprefix=b%2Caps%2C3236&sr=8-6" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Turmeric powder</td>
+                    <td><a href="https://www.amazon.in/MTR-Haldi-Turmeric-Powder-Pouch/dp/B016XUCWU6/ref=sr_1_1_sspa?crid=Q3JRRQ082YBZ&dib=eyJ2IjoiMSJ9.udSHV8buTdwydVzCn3Pv8zMORlbmQE9ErEpvd0vi18N63GaUwQG9p8H9pnbCAhKniL7vRYT83bw9vE2nTNwsjJL4wVDeVfaMNrfddLycGfogx1LYgBgsKd7Yk4MW0m0PD-V9H7kUwhKImN7ubDlLqv1OXuhTNIUFJjG3sqQ9C_QStY93Ph7pVpzd51wdvHzjXKxEW0zgPoB_Ae1Qj28ZtVgLI92lN3k76SAhx7c9gCdAdGD08ABNWPDzy_vY6XjuTOzFfoGHYc0Ipjyc7Y77e6_yf8Es-FNQlPaZedrMgJQ.MFBE1CO08TRRw5uJVpWC_FjvE_SG3Mv_n0y5RJ97G2k&dib_tag=se&keywords=Turmeric+powder&qid=1735312406&sprefix=turmeric+powder%2Caps%2C245&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ginger-garlic paste</td>
+                    <td><a href="https://www.amazon.in/Dabur-Hommade-Ginger-Garlic-Paste/dp/B015QZI2J4/ref=sr_1_9_f3_0o_fs?crid=3BKG6E09NJ3R4&dib=eyJ2IjoiMSJ9.7uZ-IQ53AB2I1AXLNxwrvZ-MjGa4krmzefjuS5Igp5_GRB5YII4hCSZzkNVVzVAHBuizoEsI2wLRHIEZNBhIpoT4Z8EZ8zoVYMceXj-gp0EeM0XTOlLhUV3ALxAPkuEs0t5Dz1zzZ1CKeKdskhszGiAYbHkaATuaIiw_YicDBG2eaxNuXK8PXbJdc4lMTE6WyQ9YoPES1WQqxF4HGFTp8TQvO9KQ8Rz6VOpncplogZCkF3fLuRp1Cpne1cYJnzwDLoVUeubFEt1sKJqmJgoMmt2rjFbf0nuMz16mJkA61c4s627UrjM1tcB9wkvW0pSRtG80Auf83gzZmCy8ZMWmNhWHmgQW-U_0VirFQKT_E4wHWWcFxQlxO5GTCS6oBhARDebqSJD29zLKBE6o34dk0nDWogHZHzaeByTgZs9-ebub0_3gET26DRTxJo3N5kJE.Z2RAsYxzH7koxJwMrgR-cfQFwrey4MzJ7wNv_nMm2yo&dib_tag=se&keywords=Ginger-garlic%2Bpaste&qid=1735305491&sprefix=ginger-garlic%2Bpaste%2Caps%2C318&sr=8-9&th=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+	<td>4</td>
+	<td>Red chilli powder</td>
+	<td><a href="https://www.amazon.in/Tata-Sampann-Shahi-Mirchi-Cartons/dp/B0886X52T6/ref=sr_1_1_sspa?crid=3DDK84XLG8H4G&dib=eyJ2IjoiMSJ9.wSiMcdvBhU6w3qE5loYjREWUDo5Q8kV32oD8-pUzGPdzTDlgIiCiS54EaVYpGSFRJakHuvYwEQTHp5C2Lz83htBTRuVnWGXHMFVVAzgGNnpcKiaaJG19fMnj8fEbqyiJNPqaBtTKo3GtOROMSe2N58T1tJyxIoOwkfVrKou2CrMPZPfUL4ccItUzM-IqHqt3NC918pJbaC9SgVfvjuIxQzLccZMQxL5-3VKciQwPV0TrFQ12Kva-0IFj0plZZ1GmcGOXPfBX6ekHCoYwldKX_CuIbCv45W35EXWaS7HMOFI.S8Bt8EdRDQxJRJH_L_2o_KhRcWII4CnKk5gzkKzS4RI&dib_tag=se&keywords=red+chilli+powder&qid=1735306136&sprefix=red+chilli%2Caps%2C286&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+	<td>5</td>
+	<td>Salt</td>
+	<td><a href="https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_5?crid=3EEWPJ8XS81J1&dib=eyJ2IjoiMSJ9.hvAFeup2RJNrcEmYj0vyhAMYE1U65MS7eLxTXPycPmWfXypIWtIek1axKsGfj8e5_6kvfdEZhmDUtLrxAWOBNj8GzcByiCt1kE7b4XJ6OvbhqOyd8f4JLOsxRTaZLNogFIFHSV9qYh-YIlEVf12CtWJeaMMH2Ls7ZWF-MMsyHPXTFs0-mQ5AJjyaM_iiIXm5-CRjemyj48uMo4vl_lPB9xQ2A6w_MHOpDbla_FVXZCMFmXAtn2kfFMgzO4Sb4wJwcNI6BV_TAjyDuxhPjvaAXpZ2U-KR_POBRrB_2ikQQ-UiVyh1ALZog09LLrk4YY666scT1jeFyOM-f0_SfzLNDmYE4vRqQjk08HEJp-lz-nmgU0-nvm4efGxR6gKGlnImisJAHu3NDdNxp4PvpmtBjT-JLX9X1f8n2YES0QHkJlkOTVO6Kh6VGZAITVQ9P9w2.IZZcTTHjNBR-g_b4Onqf1uXMjMGqhSPPuOKqxBW7UmE&dib_tag=se&keywords=salt&nsdOptOutParam=true&qid=1735310019&sprefix=salt%2Caps%2C443&sr=8-5" target="_blank">Buy</a></td>
+               </tr>
+                <tr>
+	<td>6</td>
+	<td>Garam masala </td>
+	<td><a href="https://www.amazon.in/Everest-Masala-Garam-100g-Carton/dp/B00NR8CVL8/ref=sr_1_7?crid=203Z5H7VD0KG6&dib=eyJ2IjoiMSJ9.lGouVibxTEunuhSvnuSAzxzSHmPFEm3kWhg2QX2RMDgG1NtbEWjt4QLEL943NPYZVD1E8lQ_tClP-c7DiRTcosbTlooyz4F-Ye03F0fqnOHBuwozLn4ImscweFU9p-bPq9Vp_NzRai4mc9d6ITccjSEKGZaHaMlqwhpnqCxk0CO6UQazDtqu8gFgKBXbg8z5KxoO9ZWcwuZH5mJqCKgTMLZdDiMnLVN2vr-kTLQCqKaxO2EDcLNrQOSzuj5LXkabYo1MwD4GSWCaDQVoR4i9gp1UEzLgvQ_GQdyJy_1jnFQFX1StgcyQ7AinRnT0fDZugw1RKMk6bOtsi3uwt5B8ky5dsiCoSOVtvMPxEkIdmOIBYmuunO2pBNWUkZ6ybcZh1U69Fksc3p3WICleDR3KMuq0HrG-4stHPHQSnC3b_l8IFR3cy3rM60ZDxFUl7J.zJLPhE8buYdfQKelkik9SCsZEyVP8WP3t49AeuZVigM&dib_tag=se&keywords=Garam+masala&qid=1735309535&sprefix=garam+masala+%2Caps%2C634&sr=8-7" target="_blank">Buy</a></td>
+               </tr>
+               <tr>
+	<td>7</td>
+	<td>Coriander Powder</td>
+	<td><a href="https://www.amazon.in/MTR-Coriander-Powder-100g/dp/B0155ZZLZ8/ref=sr_1_3_sspa?crid=TMT8XBC5HVXJ&dib=eyJ2IjoiMSJ9.CACHEzmJp8Gv0W8Xzf_Z1q0iwVl9r26PSBLsbn38DC2wzJZJJtgDFWG8x9Pb1r6o6lxuSyJZyk5YlmvR3PTOb5HrBgaDHrN-8KKYvZGNdkTzSLpol_XCnk801dcyrQg4sIadtvEjdms1C8iem4Lx-2lUPPYbAhCNvgNgZlxAJDPowR_jmA1xUYezwkrTX-gBfwNWTjlt_J4vGMhIk4dMTcNgvOIuDG2mlYZVdx7cw0IvjyQ21QKRETCsu-6Wo1UA4XzZ4liEKDxGQEXbcGyPlLQCeNyVsE78_cRcWqbnn2s.Y_ZaQw_Oz9mattELQBMNzf6zpwo61MtV14bXNhKk2mk&dib_tag=se&keywords=coriander+powder&qid=1735312690&sprefix=coriander+powder+%2Caps%2C269&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+               </tr>
+                <tr>
+	<td>8</td>
+	<td>Cumin Powder</td>
+	<td><a href="https://www.amazon.in/Everest-Cumin-Powder-50g/dp/B00MWZKQ1O/ref=sr_1_6?crid=20CA81MKQXWUC&dib=eyJ2IjoiMSJ9.en7crXUIaROqtbsTZ_nAPwl7NyDAeHPWGMp4d93Ux1SwFuDPnkvaiZvg7F6t5lgxo_TXCsnoBv3i89PwayF8hpWB4PLBunuslfFgPFhRN-uMO_-kpbMPWuf1iqdDnMCprXHzdnzH-fgxh6mk3DXbKuqH3p1-q0lDf3zA0d1r5hk2UAjEzDQbwxtbE3VedvFGvgsjK3UWxIhv1XHJoDXE06tILYoHZTD0XJartB8o_0Q-ZH5zHRsKg-iuL21_IIp3xAr6LxkXonD3PxHF3cg9wIrhq-wcAR_Zp1eFXR6V1V_BBSibpc8mNbZPLr_KfKMwxEQdO7_mHdVqk__pV-ByyZgtSttSIErlTdm_y95NXHKkshj3PZ60z_Fl9QxIotjvpBe41Dmuv6JiGHlP5ucPgbOsZUUwNmWUzajjko8AD7B_yXPT0D7Eryvjqrs0jmPd.9GCFTnTQ8oW10HJg8adRLSMgE65FpHmNAqZdd-Aht6I&dib_tag=se&keywords=cumin+powder&qid=1735312766&sprefix=cumin%2Caps%2C292&sr=8-6" target="_blank">Buy</a></td>
+               </tr>
+               <tr>
+	<td>9</td>
+	<td>Oil</td>
+	<td><a href="https://www.amazon.in/Freedom-Refined-Sunflower-Oil-1L/dp/B01BUZZ7H4/ref=sr_1_6_f3_0o_fs?crid=3GWR7E6DAYZ6B&dib=eyJ2IjoiMSJ9.nAu73QDPNkOx5LcFZQdRiZP7sqzk_-Bq7ew1dzISvDvbXVXq7OBx2-M9zyHAh1xm023pPyw2Wyv3TTqIAEvZm76NKOZ0AsyK7WxLSwS4yqxdkhkSBmZoh4D10W6KhWnMpWFntkAtj8vgpQ0S2cp5LbMa8rlcGqkA-AVybgSqysOBrnOi1MHAhld1bXarbHjO1bZmLzC0rocNZu1p9OZj8yOdsWJyp2A0LDt6Bq9Ti35B-pHnSyZuhKnR-UaSxSbAIsfCEb8fqMjfpvJ5KY9IfwVO_VXdn2PqZ3H6iftCDFVdm0Bk8GuooALpXNGeKl1XgV1v2qbiIoyMH0Bqc-f7_9i-l-7vUKeGFr8eDY1peMlMLHtsTfWBiSutNXDXL9fvUetlHITOWKXSvUdjxfVOJUDHameqeWRZ6WdHBcWTwZURefRrIvENJq7rtCEvpn36.vVTPsPifd20caz40sz5IyRTMhnEyv3YlRos05Ye47xk&dib_tag=se&keywords=oil&qid=1735310089&sprefix=oil%2Caps%2C430&sr=8-6" target="_blank">Buy</a></td>
+               </tr>
+            </tbody>
+        </table>
+        <a href="https://www.youtube.com/watch?v=wDxTmPzG4dw" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
