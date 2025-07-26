@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingrelink</title>
+  <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>INGRELINK</h1>
+      <ul>
+        <li><a href="ingrelink.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+<a href="#" id="logout" onclick="logoutUser()">Logout</a>
+
+<script>
+  function logoutUser() {
+    // Clear any stored session data (if applicable)
+    localStorage.clear(); // Clear local storage if tokens are stored here
+    sessionStorage.clear(); // Clear session storage if used
+
+    // Redirect to login page
+    window.location.href = "login.html";
+  }
+</script>
+
+
+     
+  </header>
+  <main>
+    <div class="content">
+      <h2>INGRELINK</h2>
+      <p>"Bringing the Chef Vibes to the Kitchen"</p>
+      
+<a href="recipepage.html">
+    <button class="explore-button">EXPLORE INGREDIENTS</button>
+</a>
+
+      
+    </div>
+  </main>
+</body>
+</html>
