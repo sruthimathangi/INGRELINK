@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Pongal</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ_v6C8Zjn5WdyH3MbgDj5gfS3QOKOZfrG7w&s" alt="Recipe 20">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Rice</td>
+                    <td><a href="https://www.amazon.in/Daawat-Sona-masuri-5-kg/dp/B08SKFSYNV/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&crid=1VN96C26PPI6X&dib=eyJ2IjoiMSJ9.hrJn9n_Gf2sTLNjcgsH-WxqMNnrsJj0a4Ok-59ZRUivFo8lTfYRrTI_fVEgRn8Z0RncUrjYPliveRI8yuY8lIUQIEAFVt4LsNI2_7q1j-nKfXCmia_ieHAakPJ6iPInOaYnTG0BnQUEZkUAIz2EYer23fTHSphjIzGkMKYp9XUY1pyQLeE6PXPqekNpQRjW2-sLEnDfm3Hl7iIaWF3bgbxtF1uX7UNa-8eHfBNBJxchD_wf8dDJF2_j-p3pReH1wLvny8o4k-RZuqCJ-I0lspXB2RlXqV4IXqbwQK1UcNt8.K0LfST3t8X3FlYy0hl95oHwNcLTip1xb9GaBkKeLWfk&dib_tag=se&fpw=alm&keywords=sona+masoori&nsdOptOutParam=true&qid=1735229679&s=nowstore&sprefix=sona+ma%2Cnowstore%2C274&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Moong dal</td>
+                    <td><a href="https://www.amazon.in/Amazon-Brand-Vedaka-Popular-Moong/dp/B07BL71R71/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&crid=3687LDARM8T3Y&dib=eyJ2IjoiMSJ9.DM0yGHOOpIBmMnB57KRzCg1LWda11UJDCZpltw9nbmTLdSELMeAuZHY679HmN5fFnkAzzzWQiYLJpz2RRPw6o2KONh98vz-Grkbu_L3eYQqaaQKF0AWZxN2M3f5_Bet-jJyFsP48UKeZMbe7HG7LWmIULKAu8HIezHINEjP5yZg3Jq6HRu9_IKwo6oOEsisiNcflbgCi4PQRUf5OKPhShTI9gUFlmsp9JKTF1h3wK6JaS7j3tI3EsAIwAAZXPFfoZpxZlpaifnHVFgMHozb1akh8J4i5iaaRMNObxe0UuYo.loSRwIRVCEFYqKWPU_cagjf22SXoW27vROIKcSwxEHg&dib_tag=se&fpw=alm&keywords=moong+dal&qid=1735229748&s=nowstore&sprefix=moong+%2Cnowstore%2C286&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Oil</td>
+                    <td><a href="https://www.amazon.in/Freedom-Refined-Sunflower-Oil-1L/dp/B01BUZZ7H4/ref=sr_1_5_f3_0g_fs?crid=1HVPXBAJYHVXY&dib=eyJ2IjoiMSJ9.nAu73QDPNkOx5LcFZQdRiQMQG9TVDIHz9hnTHREMpTozA_u6S25nAWVSoBzg2tvK023pPyw2Wyv3TTqIAEvZm5lJRSQwkVGpng30r6sGg3QfwlBnppnMIuSRR4DnQoOY09ucVMQ5n0laiDG6-ZHRM7Ma8rlcGqkA-AVybgSqysMmVhh8JuC9tCwwGMD88Wu02pzQHyEGfDXv5f22a7Sadz0R1GazijnS01_P3YaBuS3vnpM4tuqFKHpXd0dVUMOD5SukvaGWJDRc2WnFf6Y9mQnSK3Lwu7Zon1g-tJMuS9w.v__jkhCqCj3t-DgJLjG2d_0oBawxbvQQLqiSgz3B2H0&dib_tag=se&keywords=oil&qid=1735205250&s=grocery&sprefix=oil%2Cgrocery%2C398&sr=1-5" target="_blank">Buy</a></td>
+                </tr>
+
+		
+                <tr>
+                    <td>4</td>
+                    <td>Ghee</td>
+                    <td><a href="https://www.amazon.in/Durga-Ghee-200ml-Pouch/dp/B06Y27SZ8F/ref=sr_1_9_f3_wg?almBrandId=ctnow&crid=TADHVLUONDEK&dib=eyJ2IjoiMSJ9.jba845fjYUH_8wQkzm8UbUQbe6glo4WfPDbmaaT6GNbt3rP93ff0iYWmg6IR8vvDRU_fq3gmSc4oWuI6iiKBZYj4NWzxhKUH0104PlKE_2ru9PSkk6oBx9d4KKpuc-TQ9EziaeZqxrHntWwm9ACk35MPg4O8zTGMgi3IJ3akjPZJuC1Exbtt3rxRh6SYpLmNDDHqHVfETvqK77XlYlMRRGk9QVD1zDIYLUaKwwrV79qb5ABcDi8pCnKGwcW-oWjt3HZns9jY6MbkfoefoIoftngn-bGBKyPrm_Gyhp0_NvA.4dmCE_Q1inW9SyAHnLk5i338UwBz44LZslLuzo4G2TA&dib_tag=se&fpw=alm&keywords=ghee+in+fresh&nsdOptOutParam=true&qid=1735229794&s=nowstore&sprefix=Ghee%2Cnowstore%2C276&sr=1-9" target="_blank">Buy</a></td>
+                </tr>
+		
+                <tr>
+                    <td>5</td>
+                    <td>salt</td>
+                    <td><a href="https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_6?crid=3DDHWAYW60TZS&dib=eyJ2IjoiMSJ9.lw9SR-mONtmdwbtirwtTr_sc0cmLrd0tuJWV0G6oUGn1G9y86eS9hH7p8NnQCD7uG79hOadow8ds2vPPv_ch8QZW7Q6sas2l-KJ5UXZ9nNSwuwGHCskXVRY9ogfVWXRK6ylgNwOkPxh_xDQ4tXsOqC9i5iVCvy7UWb9EN6av8mLYSSHZ_5CeoPQQ0_NuqGDYLYFZ3SxyRiFtqWdTum6bC_fB2LiCfelkvMGRkqP6mdIO7Vk49Tla1nO8DNN29uHSyNfWZchsKiF6PJTbU-kz2BCs2m04vWJr6yIrSgiK4QA.-b74M_heV_4ZeeB7XCuAACRbFQEw29zTXgtiCdZf3Jo&dib_tag=se&keywords=salt+and+fresh+combo+pack&nsdOptOutParam=true&qid=1735205440&s=grocery&sprefix=salt+and+fresh+combo+pack%2Cgrocery%2C393&sr=1-6" target="_blank">Buy</a></td>
+                </tr>
+		
+                <tr>
+                    <td>6</td>
+                    <td>Cashews</td>
+                    <td><a href="https://www.amazon.in/Amazon-Brand-Vedaka-Popular-Cashews/dp/B07GQZSS48/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&crid=3JHEVA2SNKDCM&dib=eyJ2IjoiMSJ9.Egvh6PM8mI0uJoeo5b6XnoRo9uj55dv96B2adSmJ0uFH61uBW1CgGPxHm5eRTQuULC-EY1HLUrjo80_zPN8rjG3JCw98ZIg8Dc1WBcKFalcMbA5zh_Hi958BG6Uw4_MvmjOMnHgVN2Q4NJYc3nQG8Sgyt5fKF9NUfMIreEWBAfdyiiMDcgSEqb2ns6wBZ13_F1uyUM-XQpNkMRoOtdKLpFurColqZZKd1MXFgeGnfA5P-G-jOup5GVYTMKXDsz4elQhKYwVoTGnJrUjHV9r1Nr-Ar3nHuk7pOAbf1yIWS3w.3yGvvrD1uqrRgqCSemHc6HQldH0G5IbcgzAjsl4dMqI&dib_tag=se&fpw=alm&keywords=cashew&qid=1735229878&s=nowstore&sprefix=Cash%2Cnowstore%2C279&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Green chillies</td>
+                    <td><a href="https://www.amazon.in/Fresh-Chilli-Bajji-250g/dp/B07BG68J66/ref=sr_1_3_f3_wg?almBrandId=ctnow&crid=3PQYVILJ5NSD3&dib=eyJ2IjoiMSJ9.VwWs4WKS1h2rUL_jz-VzZGwg8wXeJOEeW2vaEK_VP7cClJsd3CgI26WqwIKcmlBMHBpZvOtyCDLnj9Oq7zQPhd7g1XRUonVs24Xhw44g9eKuMVnO38Wy3PmNG3B4JEzZSYVKpPwZOVDI4zKpUe1uvNerWT-UIbiqtnuxUClqh9lmrRHVQeTMz5Bv1xYh3YES_HVTrgXfapLTCmf4sMDFNZBWUtFQt1QSx2q-yic_460ldvfNUHCmIk5VLu2qq7sogAIjujH3meu3ICX4LpH2g9WL0k5ot6gBBaMWip71jiU.WVM9SoMRv3xm-0_aloxw5d0xRZG2OjsQp30SeRkOtsQ&dib_tag=se&fpw=alm&keywords=green+chillies&qid=1735206831&s=nowstore&sprefix=green+chill%2Cnowstore%2C291&sr=1-3" target="_blank">Buy</a></td>
+                </tr>
+		<tr>
+                    <td>8</td>
+                    <td>ginger</td>
+                    <td><a href="https://www.amazon.in/Fresh-Ginger-100g-Pack/dp/B07BG7B7RF/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=3W5M2XGVA1KV&dib=eyJ2IjoiMSJ9.VFTqMat39oTun1wQjtAgXwN03sMbcvw9ND28HSTtbHggd9zc2_smxP44xdZLdxCLqfGA49xH9mM5HVUizoB_KgxT7fxEDl3xBfTFUwvPArEbwYVIrcO9ckw58DxAuw1q.Oh5l7VAHQmhQw2jnBB5XcjAbnVKd5r7foNP3yZqyoxA&dib_tag=se&fpw=alm&keywords=ginger%2Bin%2Bfresh%2Bvegetable&qid=1735207405&s=nowstore&sprefix=ginger%2Cnowstore%2C308&sr=1-1&th=1" target="_blank">Buy</a></td>
+                </tr>
+		
+		<tr>
+                    <td>9</td>
+                    <td>Curry leaves</td>
+                    <td><a href="https://www.amazon.in/Fresh-Curry-Leaves-100g-Bunch/dp/B07BG6WKLS/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=3ENHDXJKBTLKE&dib=eyJ2IjoiMSJ9.3p7isRe7aazfz-oGvoy_86jcpIDreVhhqn7JHuwKJtVCBnm9z36vdBHSDkWYPvYd2iBdB4ldEcc0QpBwhU4VT6PElY3w7qYY54Ci0GwFQjzG6A4wg68LJ-EIGOZpCreA0h9UAPgn_2hal7iFxAbxxzSt2-ww1wotm0GpvirYEWomuOqrKagTS83Wd7vpcZ8ATdNTl65zeljA18UcEyVQaLX_77W6SJez1qkBQT27uMJVtscMCgx5d-096Ijucdl9hYBKdW9cUk98zTkB8LwK9AHn_VxR4EztFDE3W19daaQ.KtU-23Q1Bkd2GwIOKcfsuPMqQF08KgeOeynGfEYK95A&dib_tag=se&fpw=alm&keywords=curry+leaves+fresh+vegetables&qid=1735230032&s=nowstore&sprefix=curr%2Cnowstore%2C288&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+        </table>
+        <a href="https://www.youtube.com/watch?v=dCaAPYvCp2A" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+
+            </tbody>
+        
+    </div>
+</body>
+</html>
