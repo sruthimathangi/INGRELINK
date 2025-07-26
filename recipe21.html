@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Challa punugulu & chutney</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSOOqsirDHRh1Bcvm6oPevRNFIqMQI1VTvrg&s" alt="Recipe 21">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Maida</td>
+                    <td><a href="https://www.amazon.in/Selecta-Premium-Maida-1kg-Pouch/dp/B07CMKP84V/ref=sr_1_5_f3_wg?almBrandId=ctnow&crid=3P5S576YANZEC&dib=eyJ2IjoiMSJ9.RNo3-a1NOsTEDG-mPqEksGs4WeDRo3Q7iJAx7DZh6vEAEa7CmcgFiPQtwtiog34uxpZRsr8EgQjwRJjKiVzJHyOQRZOWC_QaWBxy6HEh3ut0cO2bsXAENXIq7o1u-RL2.GeMDQDLwhDlbueUCznL6QpZFwK0o0gYmG11eWCxEBG8&dib_tag=se&fpw=alm&keywords=midha&nsdOptOutParam=true&qid=1735206331&s=nowstore&sprefix=mitha%2Cnowstore%2C378&sr=1-5" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Curd</td>
+                    <td><a href="https://www.amazon.in/Heritage-Dahi-Pouch-500-g/dp/B07M78LKP9/ref=sr_1_2_f3_wg?almBrandId=ctnow&crid=2LXBHYHC4KKAS&dib=eyJ2IjoiMSJ9.njbV8k2YuosfFBig7vsxk_8OeKFr3gvJ4Gf6qDlx8yW0nqf4nSmptlCNr5cWfzgDJhGY2s10zEn7W89sD8QPnRH3hiOhhN6VW2AfV-_koTdTImc29IKYA2PxuruP8i1_crnRe0xkQP3GQbyOAKiSjRODyiTtvNNZEKiRFaIuP-0E9fAAPjr_6GviI7BOVOAndq9ffL-rmiFFUVFZSsjzsvKewvMQ-Uwwjn6cKnMz_EIp6TZGfYaRn1tjgQFzY6LlfW_9Dei8wAukw0AHZXRHWxRv0nPGDTp0UlWPiBRXkys.EUJBKUnQatIfDWsl9l8TG6oD_yDevBa_zULFqbAQdvc&dib_tag=se&fpw=alm&keywords=curd&qid=1735206401&s=nowstore&sprefix=curd%2Cnowstore%2C300&sr=1-2" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Oil</td>
+                    <td><a href="https://www.amazon.in/Fortune-Xpert-Pro-Immunity-Pouch/dp/B08X7HWQJM/ref=sr_1_6_f3_wg?almBrandId=ctnow&crid=254Z47OYE36RZ&dib=eyJ2IjoiMSJ9.tO2QfzfYmh0KkxsyLKjXimh4TK6e15e5sB2KKLJXTvnIJj_RJoJ2DphBwUoXgWl2fwFct2RLfQjW_0I52C-hoITV6-RbVJFLZ4Y--skwvNET-4ayiVXmpqtvCioa2dTG-oNS3xPzPCzty7OwkAO9vqMp-BMBqUcd3oyI5e-E7PfelakKd52djYYLtdmVtHp6fg5Z0UyLLnp64wbuxwMuBu7954JS7siUST_7VNC0p2vQfDZ3tDnJfgCmrMGHniNhT6oEiHlJPi8-Tes8ok8NGJD4lDMsU7sosbks3N6yNxs.idGiFt6ppH7Cl6EWJ_xWgnbNTcfBgTvIgQoCOGMvXtc&dib_tag=se&fpw=alm&keywords=oil+1+litre+pouch&qid=1735206439&s=nowstore&sprefix=oil%2Cnowstore%2C333&sr=1-6" target="_blank">Buy</a></td>
+                </tr>
+		<tr>
+                    <td>4</td>
+                    <td>Tomato</td>
+                    <td><a href="https://www.amazon.in/Fresh-Tomato-Hybrid-1kg-Pack/dp/B07BG6QWJK/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=11LJ8KFVCU71C&dib=eyJ2IjoiMSJ9.AyEWuICqkR_KaPENnX4vNVKmDO5uT9888e-xH5XyRZFq4u3M-6F1hsO8W2P8OgCWmXjpv_MLG1y_0wtLDx0z02H39JeqX3qQ4N1sWiHF3pIU6uK5shAqaFLmj87B1mARPxLCsn0_XYEI99ylKAAsmK9yVb7Hht6mijiI1PzzZ8cOzJ2ZKpxkCVv4l5lTO4HdMlcaqDMp-san9Dv2VMYRJ3VVbv3MYhcDrVHTOej48iK-2bqBGihvm9RYc-eMPzGkv9QDeNsunrq-fWTOx89dICxtFNdLAABYRj5lOkLg3rs.aJxDwuKXivjgw4fqNgqVIBhgZEbYWVo2h9M6nvlJKeQ&dib_tag=se&fpw=alm&keywords=tomatoes&qid=1735206526&s=nowstore&sprefix=tomato%2Cnowstore%2C336&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+		<tr>
+                    <td>5</td>
+                    <td>Green chillies</td>
+                    <td><a href="https://www.amazon.in/dp/B07BG7LB5B?ref=cm_sw_r_cp_ud_dp_6BXQ68WBKFKREZTKMZTQ_1&ref_=cm_sw_r_cp_ud_dp_6BXQ68WBKFKREZTKMZTQ_1&social_share=cm_sw_r_cp_ud_dp_6BXQ68WBKFKREZTKMZTQ_1" target="_blank">Buy</a></td>
+                </tr>
+		        <tr>
+                    <td>6</td>
+                    <td>Talimpu dhinusulu</td>
+                    <td><a href="https://www.amazon.in/Quality-Thalimpu-Ginjalu-Thaalippu-Tempering/dp/B0CR4DF58N/ref=sr_1_1?crid=2HCQ6W12UX3RZ&dib=eyJ2IjoiMSJ9._I7HT_LCLuBo0VuVnCUMjDC5VjAEKtPGmqgwdWB7oo4.x3rp9giV75TVdKNv5Lc2F_fIavt4a3S0ZR_3000rEv8&dib_tag=se&keywords=talimpu+dinusulu&qid=1735207190&sprefix=thalimpu+dhinusulu%2Caps%2C336&sr=8-1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+		
+                    <td>7</td>
+                    <td>salt</td>
+                    <td><a href="https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_5?crid=32GT7644XM7UM&dib=eyJ2IjoiMSJ9.hvAFeup2RJNrcEmYj0vyhJhST-MQzdwivzc2zxE1v-qIPe1_frKtnwT461gRM0xnhRDpMP77NAe57LkYcgBXy2obPRv0TYtppghkoZItxqw97OHfb54IVvwi_DMhufA0MwpUYsrptrDwAqnDzU7jc88FRk7FP5x6QLr91pzHMVR_1esTEAXIJKzzQMjyh9adS_MeZ9tNxRv0DLSOLyFAmQYhPUv-zGzr0lEd_pJaEcHJzVqkjb5BykEBTfyThszqwYY591nFubxOu_eQr24CVojrS1OjLE9fSSCp66roV8Y.zpcCANLTNgobFhH7mla61dVuyViycTF1A-xVvhml6nk&dib_tag=se&keywords=salt+1kg&qid=1735207261&sprefix=salt%2Caps%2C307&sr=8-5" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+		
+                    <td>8</td>
+                    <td>ginger</td>
+                    <td><a href="https://www.amazon.in/Fresh-Ginger-100g-Pack/dp/B07BG7B7RF/ref=sr_1_1_f3_wg?almBrandId=ctnow&crid=3W5M2XGVA1KV&dib=eyJ2IjoiMSJ9.VFTqMat39oTun1wQjtAgXwN03sMbcvw9ND28HSTtbHggd9zc2_smxP44xdZLdxCLqfGA49xH9mM5HVUizoB_KgxT7fxEDl3xBfTFUwvPArEbwYVIrcO9ckw58DxAuw1q.Oh5l7VAHQmhQw2jnBB5XcjAbnVKd5r7foNP3yZqyoxA&dib_tag=se&fpw=alm&keywords=ginger%2Bin%2Bfresh%2Bvegetable&qid=1735207405&s=nowstore&sprefix=ginger%2Cnowstore%2C308&sr=1-1&th=1" target="_blank">Buy</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://www.youtube.com/watch?v=OIU1Gn05rok" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
