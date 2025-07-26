@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Roti with Cashew Curry</h1>
+            <img src="https://static.wixstatic.com/media/68e7a4_d4da94b3e3c6471e8292a836d3f47d00~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1000,h_667,al_c,q_85,usm_0.66_1.00_0.01/68e7a4_d4da94b3e3c6471e8292a836d3f47d00~mv2_d_5184_3456_s_4_2.jpg"alt="Roti with Cashew Curry">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Whole Wheat Flour</td>
+                    <td><a href="https://www.amazon.in/Aashirvaad-Superior-MP-Atta-1kg/dp/B006FGJ30G/ref=sr_1_3_f3_wg?almBrandId=ctnow&crid=331NUP5XM9VMI&dib=eyJ2IjoiMSJ9.BCI9dur8jAVYZNN1rY_GhE0kZxFCFnUZT-eIXBCsF4WXTrW7s1Q6ziyAlCNsAeUFK5_ldI-xIVQfB8vWj_zMIwTsYGm1nEEIo8xxEZz0xmy6-KVmN2ZIlFvyJGYEQufHUUS5jaSXSzcIjuoatgKCs7oazr54JDhHslOCMeKYvoFS7DBKQUqAdwtKPwwf7_n15xp1t6MlKK94QPlE-NWO3ukjBsMAXFz1F6kLR4SumCC2QboSFDTaHJ-vO0_yyNeEe9qJrkTziu8AVjbyRiKbHLeDWYD5NIFprOz3zAUDVGA.0ZRYHbtUoYG7DFeevI_K-E0yiJ6bt7cfo1k_SjY4YuU&dib_tag=se&fpw=alm&keywords=wheat%2Bflour&qid=1735563784&s=nowstore&sprefix=whea%2Cnowstore%2C241&sr=1-3&th=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Cashews</td>
+                    <td><a href="https://www.amazon.in/Amazon-Brand-Vedaka-Popular-Cashews/dp/B07GQZSS48/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&crid=1A7407NQYCUU0&dib=eyJ2IjoiMSJ9._1lpxDiLHaJGAf_aD53l9Ohknf-n-5u6ZdgkfOf3-hgpiBD6Qk2ezEnAYC4OnFbopqLdChDVmfFcCJslL3OldjJyJu0mcZrsfbKM6cDJnd5QpOu1HzxsDuVNd1jgvtNaRE122yrJrBR1lQEJAoWel0gC9U634N-lOmFlOwwOJuJOg_TVwgYcau-qhsw1ClXY9KabI3a-lqckFYwfqUHwJIsw9HRFKKIfNx2yn2l2JBi20zTN8iDHv0pzHNEurW_XqLnkTafZoI3gr_k9WYv7-dWrRDarNc4y6wFgJ1NSbEU.FB_z15USXfD5qDOgvDNkLuxmdmsVl2gj4d7KNqH9TM4&dib_tag=se&fpw=alm&keywords=cashew&qid=1735565870&s=nowstore&sprefix=cas%2Cnowstore%2C218&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Garam Masal</td>
+                    <td><a href="https://www.amazon.in/Tata-Sampann-Garam-Masala-100g/dp/B079H113LK/ref=sr_1_29_f3_wg?almBrandId=ctnow&crid=7DDRESH3994H&dib=eyJ2IjoiMSJ9.Rbc9jLXZlQNDpDaKBqSeAgKwaWqb6BPW2G04LIX9SpxHRhkWN3U9gqjEIO__1FiZk1YfFCSwlnuKcTo8A1BoL6Nv1nsnULAo7YMhkWypV2DYnAVxsioSs9jyTR8Do4_KELkJmdh1zNdc1vjsCZvogKIL0dHWt5j0O25g30h-Xi3NRQM9AZx1OcmDh4LpzLxbcjSyPXBnbg1eomWdz_ardEuQGmHVx_2lTz6kMi2H6QRxFcVFtxCrNO8rXJHWhvBqu5RGWv8p9w19S7Stfto8XRwg4Jte1o-wYEr25vql3Dk.hRUcwvOLyxXvJVh0q_eHJIinw6o-E9JXPFOByQlSses&dib_tag=se&fpw=alm&keywords=spices&qid=1735566041&s=nowstore&sprefix=spices+%2Cnowstore%2C245&sr=1-29" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Chilli Powder</td>
+                    <td><a href="https://www.amazon.in/Tata-Sampann-Chilli-Powder-Masala/dp/B079H8KJNY/ref=sr_1_1_f3_wg_sspa?almBrandId=ctnow&crid=3BQF2OT5PLV5D&dib=eyJ2IjoiMSJ9.f1GyG2090h42JCOhlwfLLEurEy-x84_AI3p7hSJJA-rPaos0ZY7gTW9EEcA2HiRI4VTo2MJUAr3VamUFw3dI_cwScQwN36Dx0V1dDxGGGxPkGqWzAcKhinkUbwSLf-Sg2p83AJnOZ5Zb-qxZsYwz6LjfeCKldvcBQTj5KsSxCn3XADp3sMnCfTQzJfSfS7nS4rmHXzGMLdyEUIWEJtn3LoKpf8ofA-nOEB81NcVj-Vf9IWPxj8qHGXJsx3YfW0pPdFpkZbjBrnmPED_GqGe0pMclSP-wHFrp2q2I_bDRZmw.oA-cRwx6t8XxfNb4Ls4_hlgrkB4qJ7DCFUjpuqzeSqU&dib_tag=se&fpw=alm&keywords=chilly+powder&qid=1735565951&s=nowstore&sprefix=chill%2Cnowstore%2C241&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                   <td>5</td>
+                   <td>curd</td>
+                   <td><a href="https://www.amazon.in/Heritage-Curd-400g-Pack/dp/B018E0KFKW/ref=sr_1_2_f3_wg?almBrandId=ctnow&crid=3HGKW2K2T6M6H&dib=eyJ2IjoiMSJ9.E_5bCz27zzRhLZVodqqVlkLnDzXMEGmdUEDhaPHm5o_KOtjxHQZH9kiyVnqV7ILB4m6opQPSxydEB1exVCbnRU2HmmIziX1otZMO1YlM8D6reFVagk-uoLkjsv0T3z9LwzplN4gQDCtmucLlUGhBSj-8MMvDfRnut9he4SytdeK8IzcwjHSgzT-9XScQNe3g0WTGaYVZjnNQY5W5uVilb0Q_9e8WtVgTgZZIIGloWo6zZ-k5Pmo1S-dVWEYb8VRwgN2s7JqpJq6ytlxdBtX5UZPYQPAiMD7mVlts-PE6SZk.3YABouoJ4slkg7c2ztFzewaYn8UN0Hd8uDgspEZEZ8E&dib_tag=se&fpw=alm&keywords=curd+in+fresh+1kg&qid=1735566750&s=nowstore&sprefix=curd%2Cnowstore%2C235&sr=1-2" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                     <td>6</td>
+                     <td>Oil</td>
+                     <td><a href="https://www.amazon.in/Freedom-Double-Filtered-Cooking-Oil/dp/B07MHCPXLZ/ref=sr_1_2_f3_wg?almBrandId=ctnow&crid=1XMLUAC96GMH2&dib=eyJ2IjoiMSJ9.vcqJDZ76WDi1YSZ7tGGxQVgJoU0swNWR0nsMZXJ6rpynIy7qZ_RmmsPVwFI1v0DjAY8SkJxqcicT5kXukr4bRtEMQmpnb-bX3CbSPrIOoDmEVVw0CetcA-1fxPKSgefL0TYqhH7B9JPYP_hAYtF_oGM7ATQhXmMNXqPn81Bmunoi_0rGZ9YEMy4C5yn7L6YYPiXxnYG3Sy5TExOCLCO53V7EDuBbUVUFL33I4yyWjsi1nhZ95nZprWDWitl-qwyEiBnyYpVvDOuFiMIwyYLqS253rjZUKb73LgpiwbRlm34.tCs5i251xcutgWmLcBpNyiTAccu0ESAI2gOYuuy8awc&dib_tag=se&fpw=alm&keywords=oil&qid=1735566794&s=nowstore&sprefix=oi%2Cnowstore%2C219&sr=1-2" target="_blank">Buy</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://youtu.be/97nLK7FTHUw?si=xp7y1583lNmCr1qC" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+        <a href="https://www.youtube.com/watch?v=5-YhV1gmoo8" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
