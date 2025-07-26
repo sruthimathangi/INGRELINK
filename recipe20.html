@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Mirchi bajji</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCIgDN6URC6Bsdglg76OgFIZnn9YPUsv0yHA&s" alt="Recipe 20">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Gram flour</td>
+                    <td><a href="https://www.amazon.in/Pure-Sure-Organic-Besan-1kg/dp/B00M710EUG/ref=sr_1_3_sspa?crid=38X9223YQABFF&dib=eyJ2IjoiMSJ9.c2x_SfOxtRfbGhEgQRCbNUOFQucBITgY5lBXtbQw1RjOEb9JnIv_Fb-XgFQXfb6rzxppmmYNyxxk5WAFT-Y9WSmHX9qJco8JDZ0ZLiSO-8hB6jbBXUD37VrZS1PlYZw93HTIm53-4nrn4Oi-ntFWfgxZ4ilotoFLEx4oR6COBeSmK-dQiQWoOGgm6fep25w_wLLqtXBJ_iF7Rl7enU9a-F9S_3kNHxBry4m7Srl2JPUy5wZLcgQWi3l3Jy0sw6YwWdguC8_W4to8R__W-u8HXY_zX7D1tHP53aKlNN8xiEo.jzhSSN6cFQ6vP7kJO2bnlQeT2iRIUneAWBTs4s-AUPA&dib_tag=se&keywords=gram+flour&qid=1735205159&s=grocery&sprefix=gram+flour%2Cgrocery%2C306&sr=1-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rice flour</td>
+                    <td><a href="https://www.amazon.in/Radha-Govind-Organic-Flour-F110_1000/dp/B08GCTNPJ7/ref=sr_1_1_sspa?crid=V3F2I6LUPOM7&dib=eyJ2IjoiMSJ9.lwcQX9g1JVCyuble1S5HnK1CR5yG0wXnMjvwKNIaAKKcq2hHABF70RKmYBTm9-OiTKTb7d42kMtcTcjJkn9U3LY6W2eA0NNCjBwh82QL54-Ewn01wwh6ernRp6FG-90RDa7DMAOYMWhjrA2Gc_QYaV6nJiejNsbkP_lB2AWSXkU6FR3ZG9x9BU_4yLgGqwCa_xM3OVd0EgIhpK1Ovap0t2Ovb8nkvh9P3MI3T_BEl97neEsywXN7w5w75W2vKGa1fqvo3eCC9_OrYZKuBxcV83xggECS5oY72-fgWn8N3eo.dajWtwSVWXTcD1q62igStQdlMS4uuA2F3c4pl1M-vdc&dib_tag=se&keywords=rice+flour+500gm+ganesh&qid=1735205766&sprefix=rice+flour+500gm%2Caps%2C1371&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Oil</td>
+                    <td><a href="https://www.amazon.in/Freedom-Refined-Sunflower-Oil-1L/dp/B01BUZZ7H4/ref=sr_1_5_f3_0g_fs?crid=1HVPXBAJYHVXY&dib=eyJ2IjoiMSJ9.nAu73QDPNkOx5LcFZQdRiQMQG9TVDIHz9hnTHREMpTozA_u6S25nAWVSoBzg2tvK023pPyw2Wyv3TTqIAEvZm5lJRSQwkVGpng30r6sGg3QfwlBnppnMIuSRR4DnQoOY09ucVMQ5n0laiDG6-ZHRM7Ma8rlcGqkA-AVybgSqysMmVhh8JuC9tCwwGMD88Wu02pzQHyEGfDXv5f22a7Sadz0R1GazijnS01_P3YaBuS3vnpM4tuqFKHpXd0dVUMOD5SukvaGWJDRc2WnFf6Y9mQnSK3Lwu7Zon1g-tJMuS9w.v__jkhCqCj3t-DgJLjG2d_0oBawxbvQQLqiSgz3B2H0&dib_tag=se&keywords=oil&qid=1735205250&s=grocery&sprefix=oil%2Cgrocery%2C398&sr=1-5" target="_blank">Buy</a></td>
+                </tr>
+
+		
+                <tr>
+                    <td>4</td>
+                    <td>Onion</td>
+                    <td><a href="https://www.amazon.in/Fresh-Onion-1kg-Pack/dp/B07BG62MBV/ref=sr_1_1_f3_0g_fs?crid=2R0XF3IFAGK5G&dib=eyJ2IjoiMSJ9.SK3f8aFOn9Aajxr8FHPlrLWTXq2i-DN1INcYDDgC_4r80i2664q-16-5y5h3IcILqKB25apESjM-YYGlC5ZkL5OP-ndaElDaHgxF9ZAYVb4H4ZRNCaZerZndeWEnPCjPXUCfzre18H20uJp1x4BtUpJIxxchqB47RQ8i3CJ2imZtQB4-P03BTr9QKMw23NDDRFBPfehJOIxQjDxgTykdLAObxSsLCPs2IbIDOTnYv3Dx8FKChLqabePleo0JzFoKukL4slkjyXn92WdmFO6HebsAU5dUFRn7HTh9Q5qpjf8.2tPZbjCv9JvmSqt6q9Nti3anDCFgFVbRfZfZeuWjNlE&dib_tag=se&keywords=onions+fresh+1kg&nsdOptOutParam=true&qid=1735205284&s=grocery&sprefix=onion%2Cgrocery%2C373&sr=1-1" target="_blank">Buy</a></td>
+                </tr>
+		
+                <tr>
+                    <td>5</td>
+                    <td>salt</td>
+                    <td><a href="https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_6?crid=3DDHWAYW60TZS&dib=eyJ2IjoiMSJ9.lw9SR-mONtmdwbtirwtTr_sc0cmLrd0tuJWV0G6oUGn1G9y86eS9hH7p8NnQCD7uG79hOadow8ds2vPPv_ch8QZW7Q6sas2l-KJ5UXZ9nNSwuwGHCskXVRY9ogfVWXRK6ylgNwOkPxh_xDQ4tXsOqC9i5iVCvy7UWb9EN6av8mLYSSHZ_5CeoPQQ0_NuqGDYLYFZ3SxyRiFtqWdTum6bC_fB2LiCfelkvMGRkqP6mdIO7Vk49Tla1nO8DNN29uHSyNfWZchsKiF6PJTbU-kz2BCs2m04vWJr6yIrSgiK4QA.-b74M_heV_4ZeeB7XCuAACRbFQEw29zTXgtiCdZf3Jo&dib_tag=se&keywords=salt+and+fresh+combo+pack&nsdOptOutParam=true&qid=1735205440&s=grocery&sprefix=salt+and+fresh+combo+pack%2Cgrocery%2C393&sr=1-6" target="_blank">Buy</a></td>
+                </tr>
+		
+                <tr>
+                    <td>6</td>
+                    <td>Baking soda</td>
+                    <td><a href="https://www.amazon.in/Urban-Platter-Baking-Soda-250g/dp/B015A6LEOO/ref=sr_1_1_sspa?crid=PQJSPN7N36JL&dib=eyJ2IjoiMSJ9.51XvO3HNj3Fpehs495BRS9tV7-euoDFE6MKiImSj5Gr2Vm7VW4F2jOSKCryxR1A6k2nF2Z4NKo0QIdRoKIqb-AFEwQ-qu1KRqc2dExzU8PoQobPGYoupbDAM2OrbIHofG5AkyYbkIlXlyiIuGsa0PEAV-vQTb5UVdV-P-oN7lWTV5gWrShbi7F2-lZbQnomU2vZ78eA5cyTfHOGu84HzpclEhFRkFF7bR-yFO1BuekpYIlb2DvC4ilPHlcxCK2SYclC-XimmN1m7fRnasFd81dijowZpSowhSnpt_9kNQT4.-4FETgNfhOgjsF5z23pOiqa8lXUWLG8ZsSh8PadoL50&dib_tag=se&keywords=baking%2Bsoda%2Bfor%2Bcooking&qid=1735205523&s=grocery&sprefix=baking%2Cgrocery%2C370&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Green chillies</td>
+                    <td><a href="https://www.amazon.in/Fresh-Chilli-Bajji-250g/dp/B07BG68J66/ref=sr_1_3_f3_wg?almBrandId=ctnow&crid=3PQYVILJ5NSD3&dib=eyJ2IjoiMSJ9.VwWs4WKS1h2rUL_jz-VzZGwg8wXeJOEeW2vaEK_VP7cClJsd3CgI26WqwIKcmlBMHBpZvOtyCDLnj9Oq7zQPhd7g1XRUonVs24Xhw44g9eKuMVnO38Wy3PmNG3B4JEzZSYVKpPwZOVDI4zKpUe1uvNerWT-UIbiqtnuxUClqh9lmrRHVQeTMz5Bv1xYh3YES_HVTrgXfapLTCmf4sMDFNZBWUtFQt1QSx2q-yic_460ldvfNUHCmIk5VLu2qq7sogAIjujH3meu3ICX4LpH2g9WL0k5ot6gBBaMWip71jiU.WVM9SoMRv3xm-0_aloxw5d0xRZG2OjsQp30SeRkOtsQ&dib_tag=se&fpw=alm&keywords=green+chillies&qid=1735206831&s=nowstore&sprefix=green+chill%2Cnowstore%2C291&sr=1-3" target="_blank">Buy</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://www.youtube.com/watch?v=hTMZM2FEf4Q" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
