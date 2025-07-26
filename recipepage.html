@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); /* 6 columns */
+            gap: 10px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .grid-item img:hover {
+            transform: scale(1.05);
+        }
+        .back-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recipe Gallery</h1>
+    <a href="home.html" class="back-button">Back to Home</a>
+    <div class="grid-container">
+        <!-- Add 30 grid items -->
+        <div class="grid-item"><a href="recipe1.html"><img src="https://recipes.timesofindia.com/photo/52743612.cms?imgsize=700158" alt="Recipe 1"></a></div>
+        <div class="grid-item"><a href="recipe2.html"><img src="https://dadus.co.in/cdn/shop/files/1_63e56957-ac6d-46a4-8e1b-d0fa95a7ddff.png?v=1706615566&width=2048" alt="Recipe 2"></a></div>
+        <div class="grid-item"><a href="recipe3.html"><img src="https://cookingfromheart.com/wp-content/uploads/2023/01/Poornam-Boorelu-Recipe.jpg" alt="Recipe 3"></a></div>
+        <div class="grid-item"><a href="recipe4.html"><img src="https://spoonsofflavor.com/wp-content/uploads/2020/11/Homemade-Doodh-Peda-Recipe-150x150.jpg" alt="Recipe 4"></a></div>
+        <div class="grid-item"><a href="recipe5.html"><img src="https://5.imimg.com/data5/HR/AR/WO/SELLER-67634793/milk-cake-250x250.jpg" alt="Recipe 5"></a></div>
+        <div class="grid-item"><a href="recipe6.html"><img src="https://img.freepik.com/premium-photo/jalebi-sweet_57665-21404.jpg" alt="Recipe 6"></a></div>
+        <div class="grid-item"><a href="recipe7.html"><img src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg" alt="Recipe 7"></a></div>
+        <div class="grid-item"><a href="recipe8.html"><img src="https://khinskitchen.com/wp-content/uploads/2022/07/prawn-curry-with-coconut-milk-07-1024x1024.jpg" alt="Recipe 8"></a></div>
+        <div class="grid-item"><a href="recipe9.html"><img src="https://myfoodstory.com/wp-content/uploads/2022/08/Stuffed-Brinjal-Curry-6.jpg" alt="Recipe 9"></a></div>
+        <div class="grid-item"><a href="recipe10.html"><img src="https://momssnacksbox.com/wp-content/uploads/2021/05/yendu-gongura-1024x1024.jpg" alt="Recipe 10"></a></div>
+        <div class="grid-item"><a href="recipe11.html"><img src="https://www.vegrecipesofindia.com/wp-content/uploads/2014/01/potato-roast-recipe-1-500x500.jpg" alt="Recipe 11"></a></div>
+        <div class="grid-item"><a href="recipe12.html"><img src="https://th.bing.com/th/id/R.eaea0908d51bfb157ce79558b31ee5bc?rik=yiYpt%2f8t8c83eA&riu=http%3a%2f%2fkannammacooks.com%2fwp-content%2fuploads%2fIndian-Tomato-pappu-dal-andhra-style-masoor-dal-in-tomato-recipe.jpg&ehk=pXj455JOToWx%2fnXiqRpwm08DnyEIeCI0aoVOuK2AXio%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="Recipe 12"></a></div>
+        <div class="grid-item"><a href="recipe13.html"><img src="https://recipes.timesofindia.com/thumb/53552165.cms?imgsize=147885&width=800&height=800" alt="Recipe 13"></a></div>
+        <div class="grid-item"><a href="recipe14.html"><img src="https://www.indianveggiedelight.com/wp-content/uploads/2023/03/aloo-paratha-featured.jpg" alt="Recipe 14"></a></div>
+        <div class="grid-item"><a href="recipe15.html"><img src="https://i.pinimg.com/originals/e2/86/b9/e286b988e6c628e9fa44137829a5ebd7.jpg" alt="Recipe 15"></a></div>
+        <div class="grid-item"><a href="recipe16.html"><img src="https://vismaifood.com/storage/app/uploads/public/4c2/436/deb/thumb__700_0_0_0_auto.jpg" alt="Recipe 16"></a></div>
+        <div class="grid-item"><a href="recipe17.html"><img src="https://cdn.squats.in/thumbnail/CurdChickenwithChapati.jpg" alt="Recipe 17"></a></div>
+        <div class="grid-item"><a href="recipe18.html"><img src="https://www.whiskaffair.com/wp-content/uploads/2018/12/Poha-1-3.jpg" alt="Recipe 18"></a></div>
+        <div class="grid-item"><a href="recipe19.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMzIRv8VrKAVCcnpfsx1nGZT-8zMLU3pVTmQ&s" alt="Recipe 19"></a></div>
+        <div class="grid-item"><a href="recipe20.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaNqWfTuMJP_0k-Sscl7ogs-VS8QeB9S6jMQ&s" alt="Recipe 20"></a></div>
+        <div class="grid-item"><a href="recipe21.html"><img src="https://i.pinimg.com/736x/8f/b2/36/8fb236a37f410fdb6cdc3d0b7140f284.jpg" alt="Recipe 21"></a></div>
+        <div class="grid-item"><a href="recipe22.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNdqg3tWDCv4eD-uFKZ0WVqxwMQsib9ewhg&s" alt="Recipe 22"></a></div>
+        <div class="grid-item"><a href="recipe23.html"><img src="https://th.bing.com/th/id/R.6d82c5b7ac8cf114fda771a7f7e94695?rik=UUGqkjdww0s1jQ&riu=http%3a%2f%2fmummyrecipes.in%2fwp-content%2fuploads%2f2020%2f01%2fVadpav-500x500.jpg&ehk=MBttTN9zOb4SMK8jp0EXR3aQJPiqnxHPhMYh2TIyfMU%3d&risl=&pid=ImgRaw&r=0" alt="Recipe 23"></a></div>
+        <div class="grid-item"><a href="recipe24.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzfK0u6P_3ijtpdEg65PsE_TSB22pevvXZMg&s" alt="Recipe 24"></a></div>
+        <div class="grid-item"><a href="recipe25.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgkX4dRz6AT7mcJXYMq0WUxhQKOQEdj5eE9Q&s" alt="Recipe 25"></a></div>
+        <div class="grid-item"><a href="recipe26.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpXp_Egr7tHAAetFwsA5mNBV2vwL7XJcuBYg&s" alt="Recipe 26"></a></div>
+        <div class="grid-item"><a href="recipe27.html"><img src="https://www.yummytummyaarthi.com/wp-content/uploads/2012/04/6-500x500.png" alt="Recipe 27"></a></div>
+        <div class="grid-item"><a href="recipe28.html"><img src="https://i.pinimg.com/736x/a1/7e/08/a17e08a7987d7587414bb024a2b77fde.jpg" alt="Recipe 28"></a></div>
+        <div class="grid-item"><a href="recipe29.html"><img src="https://indianspice.ca/wp-content/uploads/2022/12/Pav-Bhaji-Dosa-1-1024x1024.jpg" alt="Recipe 29"></a></div>
+        <div class="grid-item"><a href="recipe30.html"><img src="https://spbandi.com/wp-content/uploads/2016/07/mysore-bajji.jpg" alt="Recipe 30"></a></div>
+    </div>
+</body>
+</html>
