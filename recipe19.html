@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Onion pakoda</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGzFKiQzshaSuVeYZZfjby_jg9Nzsy_tf_SA&s" alt="Recipe 19">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Onion</td>
+                    <td><a href="https://www.amazon.in/aspkom-Organic-Onions-Pesticide-Quality/dp/B0D3CJ3DFC/ref=sr_1_1?crid=GNPOCOQZ9XJR&dib=eyJ2IjoiMSJ9.GugmpfbbjV8prNEqUngRsq8Qoib0c5sfZnxJ_bwTz5bw_qWFblqZHrcUVMcplkZSx3mYtURtR787hlThzCQuwV1xNU37v7e01ybJ7ROfKSjn7lPA5PXDF-6OUGeI8AgcM1hbKC5fJ_MHdiaydq3SE4whi5PKukqy1oxsIukURdDQICutp0y-Vwx9pIz3qWSrnOVjsFr_mjNqLZ96Ouli2NAO5rM2Q2sZZFDESKqCHs-419tVsITH_wU7DhbKCjal_75mEQh2yEDQDmSWJvT-50eFmPU8tRxyi4c64_1s6ig.k8GFUyAHeVrI7z6Px98-Gug6p9FdEsXpOA7AW_xe8zw&dib_tag=se&keywords=onions+fresh&nsdOptOutParam=true&qid=1735203818&sprefix=onion%2Caps%2C397&sr=8-1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gram flour</td>
+                    <td><a href="https://www.amazon.in/Tata-Sampann-Besan-1kg/dp/B077X87TTS/ref=sr_1_1_sspa?crid=3STJO03R8AVJ6&dib=eyJ2IjoiMSJ9.c2x_SfOxtRfbGhEgQRCbNUOFQucBITgY5lBXtbQw1RjOEb9JnIv_Fb-XgFQXfb6rzxppmmYNyxxk5WAFT-Y9Wcx2fQnrHwC8M09Z2w7QkBtOs9_UUmcaBsBcQJWWZs0iTAJpqQSR8WSQ6Ae0JrscX5E8mnuash9iqFVEKgL7vTNExUARJ34taptD4-Nu01xi7JNtTJdDsqc5mV3EtTUPRCvYYNO_6gtLqNl0sOZlkl5JSj_cubHPspMbB4JsYKwGSusPquJVAwzaHsN0FebQsW4JSmxsyvKADEsiwpN3RKU.-44ojqM1HJP5S5aHp_dnN8KJiHhC64G9Cd3rbmgU-7E&dib_tag=se&keywords=gram+flour&qid=1735203942&sprefix=gram+%2Caps%2C507&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Oil</td>
+                    <td><a href="https://www.amazon.in/Freedom-Refined-Sunflower-Oil-1L/dp/B01BUZZ7H4/ref=sr_1_5_f3_0o_fs?crid=38L46J06EHAX0&dib=eyJ2IjoiMSJ9.tO2QfzfYmh0KkxsyLKjXimh4TK6e15e5sB2KKLJXTvnIJj_RJoJ2DphBwUoXgWl2WhDwgUS0VCgPeAdB-iMoCHVIQilXH1nlnUM_VETe4WnXkjUR91Rckub1fPKwYGse3jC9rknO5kXi-WWzQJ2Uk8RZ77v-ljGjCTkSeheRQDcZ-SyciR-ek9aBwMsUjlRt2aaewvwR3xYxtEUwWjaLEVftk-VLgcGolfw1gSZ_gbjDZhcy0VFbGVxphIw-DQc3V3Lo1HYo1urddYukpExuYeIxegOnflaJ7LNzryt9Kko.7SCHYLYskID9iAfiq_VerWlDa7doAS8Mv9D34xcOLmA&dib_tag=se&keywords=oil+1+litre+pouch&qid=1735204159&sprefix=oil%2Caps%2C347&sr=8-5" target="_blank">Buy</a></td>
+                </tr>
+		
+                <tr>
+                    <td>4</td>
+                    <td>green chilli</td>
+                    <td><a href="https://www.amazon.in/Fresh-Chilli-Green-100g-Pack/dp/B07BG7LB5B/ref=sr_1_1_f3_0o_fs?crid=1T02DTJFD1T5B&dib=eyJ2IjoiMSJ9.c5BGWfFqZ5XGyRDfy3Z7stE7vhII7DOUeuTGoVNCmG7BruAYePKs0Qx0bjkHzWEzlGyTR0JhY04SWcrPteiIYeSzq70sfsN2TWA21slMt63Nb9UAfwE8S9VNSD7Ts3PkFtg5pIB43kB6Za3cFdgp_YDaRkBFg3_KyBMgwdF9e-sTrw-3a55-mwUDtaaCeys_U3fFhPLRbMYn1q54cGDXvkDIMac9TJpTiOwmB45NefA0KfTXKa5UORGoJlbsG_J5yi-NTS2HM0ComZTueIbh0x-2gze6XAM2cmOugL-citU.5lm8yN3oQf6e5qwBT4pnGvNKgqyKUMEBfH_IgMxFhGM&dib_tag=se&keywords=green+chillies+in+fresh+vegetables&qid=1735204424&sprefix=green+chill%2Caps%2C338&sr=8-1" target="_blank">Buy</a></td>
+                </tr>
+		
+                <tr>
+                    <td>5</td>
+                    <td>Rice flour</td>
+                    <td><a href="https://www.amazon.in/JIWA-healthy-nature-Organic-Dumplings/dp/B0BT9NH66Y/ref=sr_1_1_sspa?crid=19Y9C1APIIZQK&dib=eyJ2IjoiMSJ9.dadv0jSc9V8wCjW1RNvBr_qOpL9-IHek1wos9kSZ161arQIPIXU0fbrCGFSmftKkOkmu2PFhwUJ7uLEWqUVNZqS_pMUdxjIsHlZlJQmJfPSGJJD63Sh6xnU_VaanZUngWp08KmabnpZIwd3PX96GnideTHEucKWs3yfQy2CgPBy3ZyY-L7Yo6l-v4RlYGMo8Kil6q20jk6ApJLATh4ToGTsRVWJbdjMi0QJ4WAMePPP47SH8i2f42O-sxp06zRGJfEHLa-imqjfiS5VJ1Y2X1p7uoe-iofHbi3ez6CllWis.RTzpCTx12qwPgA7f2OR501L-CLeupnwjkk0Bds3_gLM&dib_tag=se&keywords=rice+flour+500gm&qid=1735204484&sprefix=rice%2Caps%2C329&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://www.youtube.com/watch?v=j7QInvhwrAE" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
