@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Potato chips</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYIkpDrsTflVVs16L_Pm8bqBg54JLBpva0Pg&s" alt="Recipe 19">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Potato</td>
+                    <td><a href="https://www.amazon.in/Fresh-Potato-1kg-Pack/dp/B07BG5GZP2/ref=sr_1_1_f3_0o_fs?crid=8HMYD3I1V6Z8&dib=eyJ2IjoiMSJ9.6GgB04rz4us4s0U7h-dLqSO9ADuZo3XRjOjB1NpsXyfvyRTwyaFAsJLXVObW5UPrXZGKCdBQA5TlNFiN5cHnshF98WlHBcG2EnlpT6vEd0Z6xe7welmJ1fYIOR77dmD2DEgggmqhY3o8wxPslNHoUSNJKcl0Fz77m1S9GfdQSleZYqaCR94HyMSGOpJ5JTybsTAl2D2SgtgiHvABVEIot41UBI2A1sJlSwHh8k4gsP2RO3vNC5QDl-opK5doWonnuFVgeELl52GEy8IKdrKmQAmIUxxDlTlGnyf4vRwcad4.ET2d_WFY5ozAP_5By71p7sN1Bhi1eSWGylFITX449Z4&dib_tag=se&keywords=potatoes+fresh&nsdOptOutParam=true&qid=1735568642&sprefix=potatoes+fresh%2Caps%2C246&sr=8-1" target="_blank">Buy</a></td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Oil</td>
+                    <td><a href="https://www.amazon.in/Freedom-Refined-Sunflower-Oil-1L/dp/B01BUZZ7H4/ref=sr_1_5_f3_0o_fs?crid=38L46J06EHAX0&dib=eyJ2IjoiMSJ9.tO2QfzfYmh0KkxsyLKjXimh4TK6e15e5sB2KKLJXTvnIJj_RJoJ2DphBwUoXgWl2WhDwgUS0VCgPeAdB-iMoCHVIQilXH1nlnUM_VETe4WnXkjUR91Rckub1fPKwYGse3jC9rknO5kXi-WWzQJ2Uk8RZ77v-ljGjCTkSeheRQDcZ-SyciR-ek9aBwMsUjlRt2aaewvwR3xYxtEUwWjaLEVftk-VLgcGolfw1gSZ_gbjDZhcy0VFbGVxphIw-DQc3V3Lo1HYo1urddYukpExuYeIxegOnflaJ7LNzryt9Kko.7SCHYLYskID9iAfiq_VerWlDa7doAS8Mv9D34xcOLmA&dib_tag=se&keywords=oil+1+litre+pouch&qid=1735204159&sprefix=oil%2Caps%2C347&sr=8-5" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Salt</td>
+                    <td><a href="https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_2_f3_wg?almBrandId=ctnow&crid=2Z46Q9IY8HJGB&dib=eyJ2IjoiMSJ9.hvAFeup2RJNrcEmYj0vyhJhST-MQzdwivzc2zxE1v-qIPe1_frKtnwT461gRM0xnhRDpMP77NAe57LkYcgBXy-4wYBx7342u-pr3Nx7rl_g97OHfb54IVvwi_DMhufA0Tggk_YNvQPGWPAvwgTLnol89lkCd22QRAwKM601AkvrboJc4eT3gkpMhmWQChF_n77XrdLXmzBJ37WkIX3RKF0dFnu3-aWvgStuJ5Lzng8MXqmrp-H69RfxxevnR7AfzqvfgXkIZbUNkBilmCnjQO6BVWzRkeyIP9WfhnKBCERk._jM16X1J3HRUktt2MfI5X3_U630VEVLvEKjYbjzziVw&dib_tag=se&fpw=alm&keywords=salt+1kg&qid=1735226309&s=nowstore&sprefix=sal%2Cnowstore%2C368&sr=1-2" target="_blank">Buy</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://www.youtube.com/watch?v=p9h10k25tOg" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
