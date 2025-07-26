@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Ingrelink</title>
+    <style>
+        /* Global styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 1100px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Left section for the image */
+        .image-section {
+            flex: 1;
+            background-color: #eaf7f0; /* Light green background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-section img {
+            max-width: 80%;
+            height: auto;
+        }
+
+        /* Right section for the form */
+        .form-section {
+            flex: 1;
+            padding: 30px 40px;
+        }
+
+        .form-section h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333333;
+        }
+
+        .form-section p {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            color: #555555;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #ff9a00; /* Orange */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #e68a00;
+        }
+
+        .login-link {
+            text-align: center;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .login-link a {
+            color: #ff9a00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Side: Image Section -->
+        <div class="image-section">
+            <img src="https://nh1design.com/wp-content/uploads/2018/09/Tamil_Lady1500x996.gif" alt="Signup Illustration"> <!-- Use the exact image file you want -->
+        </div>
+
+        <!-- Right Side: Form Section -->
+        <div class="form-section">
+            <h1>Join Ingrelink</h1>
+            <p>Sign up to explore food ingredients and recipes!</p>
+
+            <form id="home.html" method="POST">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+
+                <button type="button" onclick="redirectToHome()">Sign Up</button>
+            </form>
+
+            <div class="login-link">
+                Already have an account? <a href="login.html">Log In</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function redirectToHome() {
+            const fullname = document.getElementById("fullname").value;
+            const email = document.getElementById("email").value;
+            const password = document.getElementById("password").value;
+            const confirmPassword = document.getElementById("confirm-password").value;
+
+            // Validate form data
+            if (password !== confirmPassword) {
+                alert("Passwords do not match. Please try again.");
+                return;
+            }
+
+            if (fullname && email && password && confirmPassword) {
+                alert("Sign Up Successful! Redirecting to Home Page...");
+                window.location.href = "home.html"; // Ensure "home.html" exists
+            } else {
+                alert("Please fill in all fields!");
+            }
+        }
+    </script>
+</body>
+</html>
