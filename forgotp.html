@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forgot Password - Ingrelink</title>
+  <link rel="stylesheet" href="styles5.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Side: Background Image -->
+    <div class="image-section">
+      <!-- Replace 'food-image.jpg' with your image -->
+      <img src="https://th.bing.com/th/id/OIP.l90TOfPGamXqMxgE7SoxowHaHa?rs=1&pid=ImgDetMain" alt="Food Background">
+    </div>
+
+    <!-- Right Side: Forgot Password Form -->
+    <div class="form-section">
+      <h1>Forgot Password</h1>
+      <p>Enter your email to receive a password reset link.</p>
+      
+      <form action="reset_confirmation.html" method="POST">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+        <button type="submit" class="login-btn">Send Reset Link</button>
+      </form>
+
+      <div class="back-to-login">
+        <a href="login.html">Back to Login</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
