@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Pala Kova/Doodh Peda</h1>
+            <img src="https://spoonsofflavor.com/wp-content/uploads/2020/11/Homemade-Doodh-Peda-Recipe-2-768x1024.jpg" alt="Recipe 1">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Milk</td>
+                    <td><a href="https://www.amazon.in/Heritage-Toned-Milk-Pasteurised-500ml/dp/B01N0ZUDF7" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sugar</td>
+                    <td><a href="https://www.amazon.in/More-Daily-White-Sugar-Kg/dp/B08CNJ6KB3/ref=sr_1_2_f3_wg?almBrandId=ctnow&crid=3B537VKV8DNPH&dib=eyJ2IjoiMSJ9.HBpCwjPCYMS-iKxBzZrH-2NU3aM6MKFhjCJ61agSnnOZC87hB8-SM0spOOE3BpEQYzg5alae_2w2-0qP1_NZ3kEUIl1-B_bewt3SEnGS13J3h3UbnyKL0DH6yh0UEz3Jc0OANL8SPJacbKkAfJrO6v0bI7jkxRT-l8t55NY58xvKvfwPl9w8moMZL_yeUQDv9y_UodtPeXeGCLaEOgRCDG3J6vw273Y5yffbWRO9bWKzfQuLMQNdP8l2iEGpu4XQ4H19TZ6jmBDfAyp2BPqciMwWNgRn2OEsK4_u1HqtRrE.oSYxXs0z_zMcmKkYN8_SHTDLT3rFNpKRlVGBmGOQnrg&dib_tag=se&fpw=alm&keywords=sugar&nsdOptOutParam=true&qid=1735053977&s=nowstore&sprefix=sugar%2Cnowstore%2C380&sr=1-2&th=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>ghee</td>
+                    <td><a href="https://www.amazon.in/Sri-TATTVA-shuddhta-naam-Desi/dp/B0CGX5L1JW/ref=sr_1_fkmr0_1_f3_wg?almBrandId=ctnow&crid=32PU4CDA3NEIA&dib=eyJ2IjoiMSJ9.B6LoCeYcovY-yIg0zXucdw.0kTvFKeT94YnBC6SSYOCTp558FafRh5rsJ5hD0TDkQ4&dib_tag=se&fpw=alm&keywords=ghee+milkfood&nsdOptOutParam=true&qid=1735054050&s=nowstore&sprefix=ghee%2Cnowstore%2C236&sr=1-1-fkmr0" target="_blank">Buy</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://www.youtube.com/watch?v=kbrc2Lee624" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
