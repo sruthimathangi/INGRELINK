@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Chicken Biryani</h1>
+            <img src="https://www.awesomecuisine.com/wp-content/uploads/2007/10/Chicken-Biryani_resized.jpg" alt="Recipe 7"
+>
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Chicken</td>
+                    <td><a href="https://www.amazon.in/FreshToHome-Premium-Chicken-Skinless-Antibiotic-residue-free/dp/B09ZF4S65G/ref=sr_1_3_f3_0o_fs?crid=1YYZ16E9HQOHJ&dib=eyJ2IjoiMSJ9.KPeTOvDE0wYV0CV8gapjRIsXOL28JCQ6OMWW8SvySlQU_VjtdzewKZiXVFl-hyb_mpfKQf5Eg7LbRQAHrE7hIkmQcrl1dfXO1Ag_qVU0WCydy3m0qo86THNtbnA_DH03el63ycQo6AZ8pRlDf-qG2WmNSFegnCx6d_U3qSgaKfwAGmuUEW54_DM7NC6UlbR38bQmIv5DvdwLteuiWmTsuQHUpTb_79MwO6qwQhLpoO2PvPzlqC4P3RBZxy_HfuQCoBijmkvfwQZLMAKB8bIzvnkxYMyrCAJxGHaW3aV7Tru6Xrq9AyQG6_u2-eDoo8svri6OK56_UlVZwJh41761aRfxMoojQDCfyRkIFDmPqbPZ-ruYYZBC_ZI9UrHPK7corHBCZcZ2R8XpGoagI3PbBDovJXlsFELdW8K2_MhVzO7XVPRcVb9RhCWYrL0ncDdk.TmCAsm7dWaWAWw6BFJsD1jPK5ukbODPMJ5JNh5rz-9o&dib_tag=se&keywords=chicken&nsdOptOutParam=true&qid=1735305382&sprefix=%2Caps%2C355&sr=8-3" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Yogurt</td>
+                    <td><a href="https://www.amazon.in/Heritage-Curd-Tub-Jar-1kg/dp/B07KX1M5SQ/ref=sr_1_17_f3_0o_fs?crid=1FMZ8MA428A21&dib=eyJ2IjoiMSJ9.UvDuzYlVfMxmSaetkASovkn1yuBuIoVkMndz6wcUJg3RNWQ1FJDs8AWm9fwf8Tb5JWTM4mdf8CVenkpW4qe7LrAFXHutP8-kGJzCEvJ1i_LKgkqkoso5Sx4LObZkppTvtZLDblnSXb4SqxiK0jJ3yzXAMi82HlxsJOTPD1WWpLBg_LzRX-2L7NV2HqbO3LAbkmGixyci23FcqW1GvKQauQNzuI3cLGGvUyr9Y3pSjhrUw8M5QVDpw1qxGfFymHjDb2JR-ZTslYVh5eEBTC3v5tNqBAmXICQoFN5OYmv7wA8FSsDa8d6foTc0m3lInz1muk4r12nOwjtzxnqc4R5sRL6NUmXJmdL0Px_3d262MP2d9GT67t6JxsdVPSGrEPZTsr34m9G93Xj2DTatP_T8HbCYWDfpyBNJKGYER-jrB6iUbaLrA4TJbgXrv8FpxfME.g_QbnlJEgArBxzWAB-ULxZN-orl28bMF7NrDiTv2858&dib_tag=se&keywords=Yogurt&qid=1735305259&sprefix=yogurt%2Caps%2C396&sr=8-17" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ginger-garlic paste</td>
+                    <td><a href="https://www.amazon.in/Dabur-Hommade-Ginger-Garlic-Paste/dp/B015QZI2J4/ref=sr_1_9_f3_0o_fs?crid=3BKG6E09NJ3R4&dib=eyJ2IjoiMSJ9.7uZ-IQ53AB2I1AXLNxwrvZ-MjGa4krmzefjuS5Igp5_GRB5YII4hCSZzkNVVzVAHBuizoEsI2wLRHIEZNBhIpoT4Z8EZ8zoVYMceXj-gp0EeM0XTOlLhUV3ALxAPkuEs0t5Dz1zzZ1CKeKdskhszGiAYbHkaATuaIiw_YicDBG2eaxNuXK8PXbJdc4lMTE6WyQ9YoPES1WQqxF4HGFTp8TQvO9KQ8Rz6VOpncplogZCkF3fLuRp1Cpne1cYJnzwDLoVUeubFEt1sKJqmJgoMmt2rjFbf0nuMz16mJkA61c4s627UrjM1tcB9wkvW0pSRtG80Auf83gzZmCy8ZMWmNhWHmgQW-U_0VirFQKT_E4wHWWcFxQlxO5GTCS6oBhARDebqSJD29zLKBE6o34dk0nDWogHZHzaeByTgZs9-ebub0_3gET26DRTxJo3N5kJE.Z2RAsYxzH7koxJwMrgR-cfQFwrey4MzJ7wNv_nMm2yo&dib_tag=se&keywords=Ginger-garlic%2Bpaste&qid=1735305491&sprefix=ginger-garlic%2Bpaste%2Caps%2C318&sr=8-9&th=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+	<td>4</td>
+	<td>Red chilli powder</td>
+	<td><a href="https://www.amazon.in/Tata-Sampann-Shahi-Mirchi-Cartons/dp/B0886X52T6/ref=sr_1_1_sspa?crid=3DDK84XLG8H4G&dib=eyJ2IjoiMSJ9.wSiMcdvBhU6w3qE5loYjREWUDo5Q8kV32oD8-pUzGPdzTDlgIiCiS54EaVYpGSFRJakHuvYwEQTHp5C2Lz83htBTRuVnWGXHMFVVAzgGNnpcKiaaJG19fMnj8fEbqyiJNPqaBtTKo3GtOROMSe2N58T1tJyxIoOwkfVrKou2CrMPZPfUL4ccItUzM-IqHqt3NC918pJbaC9SgVfvjuIxQzLccZMQxL5-3VKciQwPV0TrFQ12Kva-0IFj0plZZ1GmcGOXPfBX6ekHCoYwldKX_CuIbCv45W35EXWaS7HMOFI.S8Bt8EdRDQxJRJH_L_2o_KhRcWII4CnKk5gzkKzS4RI&dib_tag=se&keywords=red+chilli+powder&qid=1735306136&sprefix=red+chilli%2Caps%2C286&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+	<td>5</td>
+	<td>Garam masala </td>
+	<td><a href="https://www.amazon.in/Everest-Masala-Garam-100g-Carton/dp/B00NR8CVL8/ref=sr_1_7?crid=203Z5H7VD0KG6&dib=eyJ2IjoiMSJ9.lGouVibxTEunuhSvnuSAzxzSHmPFEm3kWhg2QX2RMDgG1NtbEWjt4QLEL943NPYZVD1E8lQ_tClP-c7DiRTcosbTlooyz4F-Ye03F0fqnOHBuwozLn4ImscweFU9p-bPq9Vp_NzRai4mc9d6ITccjSEKGZaHaMlqwhpnqCxk0CO6UQazDtqu8gFgKBXbg8z5KxoO9ZWcwuZH5mJqCKgTMLZdDiMnLVN2vr-kTLQCqKaxO2EDcLNrQOSzuj5LXkabYo1MwD4GSWCaDQVoR4i9gp1UEzLgvQ_GQdyJy_1jnFQFX1StgcyQ7AinRnT0fDZugw1RKMk6bOtsi3uwt5B8ky5dsiCoSOVtvMPxEkIdmOIBYmuunO2pBNWUkZ6ybcZh1U69Fksc3p3WICleDR3KMuq0HrG-4stHPHQSnC3b_l8IFR3cy3rM60ZDxFUl7J.zJLPhE8buYdfQKelkik9SCsZEyVP8WP3t49AeuZVigM&dib_tag=se&keywords=Garam+masala&qid=1735309535&sprefix=garam+masala+%2Caps%2C634&sr=8-7" target="_blank">Buy</a></td>
+               </tr>
+               <tr>
+	<td>6</td>
+	<td>Chicken Masala</td>
+	<td><a href="https://www.amazon.in/Eastern-Biriyani-Masala-Powder-100g/dp/B01CHIKM5A/ref=sr_1_2_sspa?crid=4WD2Y27YADBY&dib=eyJ2IjoiMSJ9.eh31Rj4lkaeTuZa5Rb6rS8cbqREoDR4h1zq9y0wKcXTxGKahuBiXtTQE660BGeh5FPUcTGIXxiYd2Iqe0YJ5kgWXdIsqwpgCbbmNw9bGWwRizXGVoFnmN01GAY0SajwB0E4lxR0S--lJdGKSVOzxwY7OqJlyqK1Rj1x-HwrvF18yh8qS93lljTzV5J-fRoDtONbj6yZCLNy8O8Q2YPnegrm1qexSqVX19J-L6la89wBhGKu0JQNjO89-u_B_kI6bQcXouBEzI5gSe3mF5OQT1K9k64fhFIdD3JBe2p3lDGg.9ftN0zTgix9kOAL-ahf8BI93pWPb9SakSz4cSXUY14Q&dib_tag=se&keywords=chicken+biryani+masala&qid=1735309818&sprefix=chicken+bir%2Caps%2C475&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+               </tr>
+               <tr>
+	<td>7</td>
+	<td>Basmati Rice</td>
+	<td><a href="https://www.amazon.in/Daawat-Rozana-Gold-Basmati-Rice/dp/B00N2WFYB8/ref=sr_1_1_sspa?crid=2LKHKX6ONG9KR&dib=eyJ2IjoiMSJ9.1gelpIgpL8j9vukzhszqfsFihwHtz7c24f1VP7320cICmh1jenjID8Liivzpr2-UpcLhOtgMV00oyJ_xkOS0U8RTvQwdwpa5UTxqcrrHfr-YQJVxt167xpVMoHXZXCdpQdw6hQaYkwcVcdoUKNcOXw5t4ichyBMfBd-IVHXs_gbkAlISO4jArxHks7oKBTJgPRFgtJEbUfDq6_6gdHXsnQiXUxY8wjgA-F7ksodqolNiC0AgEIkZIoSevrFLmpNk3D7Z9yoMC_roCTYXmnP0JCAtj5W9kx9pzErKTxX4qMs.92S98WU3UXKsZqQveHgqMiE2FY-GuE-O-xHBEos6o1Y&dib_tag=se&keywords=Basmati+rice&qid=1735309756&sprefix=%2Caps%2C640&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank">Buy</a></td>
+               </tr>
+                <tr>
+	<td>8</td>
+	<td>Salt</td>
+	<td><a href="https://www.amazon.in/Flowing-Iodised-Namak-Vacuum-Evaporated/dp/B07575FPC3/ref=sr_1_5?crid=3EEWPJ8XS81J1&dib=eyJ2IjoiMSJ9.hvAFeup2RJNrcEmYj0vyhAMYE1U65MS7eLxTXPycPmWfXypIWtIek1axKsGfj8e5_6kvfdEZhmDUtLrxAWOBNj8GzcByiCt1kE7b4XJ6OvbhqOyd8f4JLOsxRTaZLNogFIFHSV9qYh-YIlEVf12CtWJeaMMH2Ls7ZWF-MMsyHPXTFs0-mQ5AJjyaM_iiIXm5-CRjemyj48uMo4vl_lPB9xQ2A6w_MHOpDbla_FVXZCMFmXAtn2kfFMgzO4Sb4wJwcNI6BV_TAjyDuxhPjvaAXpZ2U-KR_POBRrB_2ikQQ-UiVyh1ALZog09LLrk4YY666scT1jeFyOM-f0_SfzLNDmYE4vRqQjk08HEJp-lz-nmgU0-nvm4efGxR6gKGlnImisJAHu3NDdNxp4PvpmtBjT-JLX9X1f8n2YES0QHkJlkOTVO6Kh6VGZAITVQ9P9w2.IZZcTTHjNBR-g_b4Onqf1uXMjMGqhSPPuOKqxBW7UmE&dib_tag=se&keywords=salt&nsdOptOutParam=true&qid=1735310019&sprefix=salt%2Caps%2C443&sr=8-5" target="_blank">Buy</a></td>
+               </tr>
+               <tr>
+	<td>9</td>
+	<td>Oil</td>
+	<td><a href="https://www.amazon.in/Freedom-Refined-Sunflower-Oil-1L/dp/B01BUZZ7H4/ref=sr_1_6_f3_0o_fs?crid=3GWR7E6DAYZ6B&dib=eyJ2IjoiMSJ9.nAu73QDPNkOx5LcFZQdRiZP7sqzk_-Bq7ew1dzISvDvbXVXq7OBx2-M9zyHAh1xm023pPyw2Wyv3TTqIAEvZm76NKOZ0AsyK7WxLSwS4yqxdkhkSBmZoh4D10W6KhWnMpWFntkAtj8vgpQ0S2cp5LbMa8rlcGqkA-AVybgSqysOBrnOi1MHAhld1bXarbHjO1bZmLzC0rocNZu1p9OZj8yOdsWJyp2A0LDt6Bq9Ti35B-pHnSyZuhKnR-UaSxSbAIsfCEb8fqMjfpvJ5KY9IfwVO_VXdn2PqZ3H6iftCDFVdm0Bk8GuooALpXNGeKl1XgV1v2qbiIoyMH0Bqc-f7_9i-l-7vUKeGFr8eDY1peMlMLHtsTfWBiSutNXDXL9fvUetlHITOWKXSvUdjxfVOJUDHameqeWRZ6WdHBcWTwZURefRrIvENJq7rtCEvpn36.vVTPsPifd20caz40sz5IyRTMhnEyv3YlRos05Ye47xk&dib_tag=se&keywords=oil&qid=1735310089&sprefix=oil%2Caps%2C430&sr=8-6" target="_blank">Buy</a></td>
+               </tr>
+               <tr>
+	<td>10</td>
+	<td>Spices</td>
+	<td><a href="https://www.amazon.in/Touchstone-Aromatic-Whole-Masala-Spices/dp/B09C4YQQBW/ref=sr_1_11?crid=2KWD3ESTO3QW0&dib=eyJ2IjoiMSJ9.4NtgXlRFZ4TVX-kaNKudAcPtBcfVO4XjQczEbRLoqWX4RbjOY0cuyLQdNBNfVbTjpBNvzkeWaY1r9TZxN81xmDDUNDhOJoPLgM9EeNtMOaKf2wjB09Qvot0LUUvT97tA-_7_EFu9C-lvTKRjqet_zJ5lYXJvqpGEHdA-IoGibHCobqrhVXSPuCmZ-ZGHAFEdQbMf-yxWd69OGoYfse89Jh14X9l4WZ0L8Hy0HpftJiOGASO4yOqSA1ssMF4SF0cPMN2WuqhW4MCS8sz5ITKee2K2EKC3UrhFOSaDNeodPL1PrF0SHXElEjSZojrSGHMSbc9E94mACbaIMP_1YkMQ6O49XHPWNRqmv4vos-ZNVe6abIe3SyHq-p_pF2M6cwLbpIN5Z22MkkmPR-oEqbaf-UQZ2JYF4GkYRwrak75yI3JH3ixYDJfmf0Mqein5T26X.1Hr2-0owW91rWTetZgtDxWq-uxxeBIVgn0nVIpUcAxQ&dib_tag=se&keywords=all%2Bspices%2Bcombo%2Bpack&qid=1735310274&sprefix=all%2Bspice%2Caps%2C345&sr=8-11&th=1" target="_blank">Buy</a></td>
+               </tr>
+            </tbody>
+        </table>
+        <a href="https://www.youtube.com/watch?v=kHjkXysXChw" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
