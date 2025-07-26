@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .recipe-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 400px;
+            object-fit: contain;
+        }
+        .ingredients-table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centers the table */
+            text-align: left;
+        }
+        .ingredients-table th,
+        .ingredients-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .ingredients-table th {
+            background-color: #f2f2f2;
+        }
+        .youtube-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .youtube-link:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="recipepage.html" class="back-button">Back</a>
+        <div class="recipe-image">
+            <h1>Ravva Pulihora</h1>
+            <img src="https://vismaifood.com/storage/app/uploads/public/4c2/436/deb/thumb__700_0_0_0_auto.jpg"alt="Ravva Pulihora">
+        </div>
+        <table class="ingredients-table">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Ingredient Name</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sooji (Ravva)</td>
+                    <td><a href="https://amzn.in/d/eoB9Izg" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tamarind</td>
+                    <td><a href="https://amzn.in/d/fIVZbUg" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Green Chilies</td>
+                    <td><a href="https://www.swiggy.com/instamart/item/7ND5JPMIYJ?storeId=1374258" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Curry Leaves</td>
+                    <td><a href="https://amzn.in/d/3QlGTYk" target="_blank">Buy</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Spices (Turmeric, Mustard Seeds, etc.)</td>
+                    <td><a href="https://www.amazon.in/Touchstone-Aromatic-Whole-Masala-Spices/dp/B09C4YQQBW/ref=sr_1_11?crid=2KWD3ESTO3QW0&dib=eyJ2IjoiMSJ9.4NtgXlRFZ4TVX-kaNKudAcPtBcfVO4XjQczEbRLoqWX4RbjOY0cuyLQdNBNfVbTjpBNvzkeWaY1r9TZxN81xmDDUNDhOJoPLgM9EeNtMOaKf2wjB09Qvot0LUUvT97tA-_7_EFu9C-lvTKRjqet_zJ5lYXJvqpGEHdA-IoGibHCobqrhVXSPuCmZ-ZGHAFEdQbMf-yxWd69OGoYfse89Jh14X9l4WZ0L8Hy0HpftJiOGASO4yOqSA1ssMF4SF0cPMN2WuqhW4MCS8sz5ITKee2K2EKC3UrhFOSaDNeodPL1PrF0SHXElEjSZojrSGHMSbc9E94mACbaIMP_1YkMQ6O49XHPWNRqmv4vos-ZNVe6abIe3SyHq-p_pF2M6cwLbpIN5Z22MkkmPR-oEqbaf-UQZ2JYF4GkYRwrak75yI3JH3ixYDJfmf0Mqein5T26X.1Hr2-0owW91rWTetZgtDxWq-uxxeBIVgn0nVIpUcAxQ&dib_tag=se&keywords=all%2Bspices%2Bcombo%2Bpack&qid=1735310274&sprefix=all%2Bspice%2Caps%2C345&sr=8-11&th=1" target="_blank">Buy</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="https://youtu.be/wCwXZ2jmcbM?si=UGStZOoSyXPmBYKe" target="_blank" class="youtube-link">Watch Recipe on YouTube</a>
+    </div>
+</body>
+</html>
